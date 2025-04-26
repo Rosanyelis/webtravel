@@ -14,16 +14,16 @@
                     <div class="main-navigation d-none d-lg-block">
                         <nav id="navigation" class="navigation">
                             <ul>
-                                <li class="menu-item">
-                                    <a href="{{ route('pages.index') }}">Home</a>
+                                <li class="menu-item @if(Route::currentRouteName() == 'pages.index') current-menu-item @endif ">
+                                    <a href="{{ route('pages.index') }}" >Home</a>
                                 </li>
-                                <li class="menu-item">
+                                <li class="menu-item @if(Route::currentRouteName() == 'pages.CraftedForYou') current-menu-item @endif">
                                     <a href="{{ route('pages.CraftedForYou') }}">Crafted for You</a>
                                 </li>
-                                <li class="menu-item">
+                                <li class="menu-item @if(Route::currentRouteName() == 'pages.experience') current-menu-item @endif">
                                     <a href="{{ route('pages.experience') }}">Experiences</a>
                                 </li>
-                                <li class="menu-item">
+                                <li class="menu-item @if(Route::currentRouteName() == 'pages.highlights') current-menu-item @endif">
                                     <a href="{{ route('pages.highlights') }}">Highlights</a>
                                 </li>
                             </ul>

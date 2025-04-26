@@ -252,7 +252,7 @@ body {
   font-size: 15px;
   color: #383838;
   background-color: #ffffff;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: normal;
   font-style: normal;
   line-height: 1.6;
@@ -286,7 +286,7 @@ blockquote, pre {
   -o-box-shadow: none;
   box-shadow: none;
   color: #1a1a1a;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: italic;
   margin: 0 0 15px 0;
   padding: 25px 22px;
@@ -1069,11 +1069,10 @@ input[type=submit]:focus {
 
 .button-white {
   background-color: #ffffff;
-  color: #9B2431;
+  color: #9B2431 ;
 }
 .button-white {
   border: none;
-  color: #262523;
   display: inline-block;
   position: relative;
   -webkit-transition: background-color 0.3s;
@@ -2826,16 +2825,16 @@ input[type=submit]:focus {
   padding: 0 30px 0;
 }
 .package-wrap .package-content .btn-wrap {
-  display: -webkit-box;
+  /* display: -webkit-box;
   display: -moz-box;
   display: -ms-flexbox;
   display: -webkit-flex;
-  display: flex;
-  border-top: 1px solid rgba(175, 175, 175, 0.1);
+  display: flex; */
+  border-top: 1px solid rgba(155, 36, 49);
   text-align: center;
-  margin-left: -30px;
+  /* margin-left: -30px;
   margin-right: -30px;
-  margin-top: 27px;
+  margin-top: 27px; */
 }
 .package-wrap .package-content .btn-wrap a {
   color: #383838;
@@ -2856,10 +2855,10 @@ input[type=submit]:focus {
   margin-left: 8px;
 }
 .package-wrap .package-content .btn-wrap a:hover, .package-wrap .package-content .btn-wrap a:focus, .package-wrap .package-content .btn-wrap a:active {
-  color: #0791BE;
+  color: #262523;
 }
 .package-wrap .package-content .btn-wrap a:hover [class*=fa-], .package-wrap .package-content .btn-wrap a:focus [class*=fa-], .package-wrap .package-content .btn-wrap a:active [class*=fa-] {
-  color: #0791BE;
+  color: #262523;
 }
 .package-wrap .package-content .btn-wrap a:hover [class*=fa-]:before, .package-wrap .package-content .btn-wrap a:focus [class*=fa-]:before, .package-wrap .package-content .btn-wrap a:active [class*=fa-]:before {
   font-weight: 900;
@@ -2915,7 +2914,7 @@ input[type=submit]:focus {
 }
 
 .package-meta {
-  background-color: #0791BE;
+  background-color: #262523;
   margin-bottom: 25px;
   margin-left: 30px;
   margin-right: 30px;
@@ -4715,7 +4714,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
   margin-bottom: 30px;
 }
 .about-service .about-service-icon {
-  background-color: #0791BE;
+  background-color: #9B2431 ;
   color: #ffffff;
   width: 80px;
   height: 80px;

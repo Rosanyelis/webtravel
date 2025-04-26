@@ -11,11 +11,11 @@ class PagesController extends Controller
     }
 
     public function CraftedForYou(){
-        return view('welcome');
+        return view('CraftedForYou');
     }
 
     public function experience(){
-        return view('welcome');
+        return view('experience');
     }
 
     public function highlights(){
