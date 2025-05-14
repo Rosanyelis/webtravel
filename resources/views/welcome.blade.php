@@ -101,7 +101,8 @@
                                     <div class="col-sm-6">
                                         <div class="desti-item overlay-desti-item">
                                             <figure class="desti-image">
-                                                <img src="assets/images/img1.png" alt="Rainbow Mountain">
+                                                <img src="{{ asset('assets/images/img1.png') }}" 
+                                                alt="Rainbow Mountain">
                                             </figure>
                                             <div class="meta-cat bg-meta-cat">
                                                 <a href="#">CUSCO</a>
@@ -114,7 +115,8 @@
                                     <div class="col-sm-6">
                                         <div class="desti-item overlay-desti-item">
                                             <figure class="desti-image">
-                                                <img src="assets/images/img2.png" alt="Sacred Valley">
+                                                <img src="{{ asset('assets/images/img2.png') }}" 
+                                                alt="Sacred Valley">
                                             </figure>
                                             <div class="meta-cat bg-meta-cat">
                                                 <a href="#">CUSCO</a>
@@ -133,7 +135,8 @@
                                     <div class="col-md-6 col-xl-12">
                                         <div class="desti-item overlay-desti-item">
                                             <figure class="desti-image">
-                                                <img src="assets/images/img3.png" alt="Maras">
+                                                <img src="{{ asset('assets/images/img3.png') }}" 
+                                                alt="Maras">
                                             </figure>
                                             <div class="meta-cat bg-meta-cat">
                                                 <a href="#">CUSCO</a>
@@ -148,7 +151,8 @@
                                     <div class="col-md-6 col-xl-12">
                                         <div class="desti-item overlay-desti-item">
                                             <figure class="desti-image">
-                                                <img src="assets/images/img4.png" alt="City Tour">
+                                                <img src="{{ asset('assets/images/img4.png') }}" 
+                                                alt="City Tour">
                                             </figure>
                                             <div class="meta-cat bg-meta-cat">
                                                 <a href="#">CUSCO</a>
@@ -174,7 +178,8 @@
                 <div class="container">
                     <div class="row no-gutters align-items-center">
                         <div class="col-lg-5">
-                            <div class="callback-img" style="background-image: url(assets/images/img8.png);"></div>
+                            <div class="callback-img" 
+                            style="background-image: url({{ asset('assets/images/img8.png') }});"></div>
                         </div>
                         <div class="col-lg-7">
                             <div class="callback-inner">
@@ -189,7 +194,8 @@
                                 <div class="callback-counter-wrap">
                                     <div class="counter-item">
                                         <div class="counter-icon">
-                                            <img src="assets/images/icon1.png" alt="">
+                                            <img src="{{ asset('assets/images/icono-01.png') }}" 
+                                             alt="Authentic Connections">
                                         </div>
                                         <div class="counter-content">
                                             <span class="counter-text">
@@ -199,7 +205,8 @@
                                     </div>
                                     <div class="counter-item">
                                         <div class="counter-icon">
-                                            <img src="assets/images/icon2.png" alt="">
+                                            <img src="{{ asset('assets/images/icono-02.png') }}" 
+                                            alt="Unforgettable Experiences">
                                         </div>
                                         <div class="counter-content">
                                             <span class="counter-text">
@@ -209,7 +216,8 @@
                                     </div>
                                     <div class="counter-item">
                                         <div class="counter-icon">
-                                            <img src="assets/images/icon3.png" alt="">
+                                            <img src="{{ asset('assets/images/icono-03.png') }}" 
+                                            alt="Personalized Travel">
                                         </div>
                                         <div class="counter-content">
                                             <span class="counter-text">
@@ -219,7 +227,8 @@
                                     </div>
                                     <div class="counter-item">
                                         <div class="counter-icon">
-                                            <img src="assets/images/icon4.png" alt="">
+                                            <img src="{{ asset('assets/images/icono-04.png') }}" 
+                                            alt="Responsible Tourism">
                                         </div>
                                         <div class="counter-content">
                                             <span class="counter-text">
@@ -230,7 +239,8 @@
                                 </div>
                                 <div class="support-area">
                                     <div class="support-icon">
-                                        <img src="assets/images/icon5.png" alt="">
+                                        <img src="{{ asset('assets/images/icono-05.png') }}" 
+                                        alt="Contact us for further Information">
                                     </div>
                                     <div class="support-content">
                                         <h4>Contact us for further Information</h4>
@@ -260,26 +270,30 @@
                                     Authentic, close, and full of Peru’s magic.</p>
                             </div>
                             <figure class="gallery-img">
-                                <img src="assets/images/img12.jpg" alt="">
+                                <img src="{{ asset('assets/images/img12.jpg') }}" 
+                                alt="Best Traveler’s Photos">
                             </figure>
                         </div>
                         <div class="col-lg-7">
                             <div class="row">
                                 <div class="col-sm-6">
                                     <figure class="gallery-img">
-                                        <img src="assets/images/img13.jpg" alt="">
+                                        <img src="{{ asset('assets/images/img13.jpg') }}" 
+                                        alt="Best Traveler’s Photos">
                                     </figure>
                                 </div>
                                 <div class="col-sm-6">
                                     <figure class="gallery-img">
-                                        <img src="assets/images/img14.jpg" alt="">
+                                        <img src="{{ asset('assets/images/img14.jpg') }}" 
+                                        alt="Best Traveler’s Photos">
                                     </figure>
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="col-12">
                                     <figure class="gallery-img">
-                                        <img src="assets/images/img15.jpg" alt="">
+                                        <img src="{{ asset('assets/images/img15.jpg') }}" 
+                                        alt="Best Traveler’s Photos">
                                     </figure>
                                 </div>
                             </div>
@@ -289,14 +303,16 @@
             </section>
             <!-- best html end -->
             <!-- Home testimonial section html start -->
-            <div class="testimonial-section" style="background-image: url(assets/images/img23.jpg);">
+            <div class="testimonial-section" 
+            style="background-image: url({{ asset('assets/images/img23.jpg') }});">
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-10 offset-lg-1">
                             <div class="testimonial-inner testimonial-slider">
                                 <div class="testimonial-item text-center">
                                     <figure class="testimonial-img">
-                                        <img src="assets/images/img20.jpg" alt="">
+                                        <img src="{{ asset('assets/images/img20.jpg') }}" 
+                                        alt="Testimonial">
                                     </figure>
                                     <div class="testimonial-content">
                                         <p>" Dolorum aenean dolorem minima! Voluptatum? Corporis condimentum ac primis
@@ -311,7 +327,8 @@
                                 </div>
                                 <div class="testimonial-item text-center">
                                     <figure class="testimonial-img">
-                                        <img src="assets/images/img21.jpg" alt="">
+                                        <img src="{{ asset('assets/images/img21.jpg') }}" 
+                                        alt="Testimonial">
                                     </figure>
                                     <div class="testimonial-content">
                                         <p>" Dolorum aenean dolorem minima! Voluptatum? Corporis condimentum ac primis
@@ -326,7 +343,8 @@
                                 </div>
                                 <div class="testimonial-item text-center">
                                     <figure class="testimonial-img">
-                                        <img src="assets/images/img22.jpg" alt="">
+                                        <img src="{{ asset('assets/images/img22.jpg') }}" 
+                                        alt="Testimonial">
                                     </figure>
                                     <div class="testimonial-content">
                                         <p>" Dolorum aenean dolorem minima! Voluptatum? Corporis condimentum ac primis
@@ -350,7 +368,8 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-4">
-                            <div class="contact-img" style="background-image: url(assets/images/img24.png);">
+                            <div class="contact-img" 
+                            style="background-image: url({{ asset('assets/images/img24.png') }});">
                             </div>
                         </div>
                         <div class="col-lg-8">

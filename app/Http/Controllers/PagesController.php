@@ -19,6 +19,10 @@ class PagesController extends Controller
     }
 
     public function highlights(){
-        return view('welcome');
+        return view('highlights');
+    }
+
+    public function contact(){
+        return view('contact');
     }
 }

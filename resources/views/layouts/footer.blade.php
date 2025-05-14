@@ -6,16 +6,16 @@
                             <aside class="widget widget_text">
                                 
                                 <div class="award-img">
-                                    <a href="{{ route('pages.index') }}"><img src="assets/images/logo6.png" alt=""></a>
-                                    <a href="{{ route('pages.index') }}"><img src="assets/images/logo2.png" alt=""></a>
-                                </div>
-                                
-                                <div class="d-flex justify-content-center ">
-                                    <a href="#" class="mr-3" ><img src="{{ asset('assets/images/facebook-circle-fill-white.png') }}" width="150%" alt="facebook"></a>
-                                    <a href="#" class="mr-3"><img src="{{ asset('assets/images/instagram-fill-white.png') }}" width="150%" alt="instagram"></a>
-                                    <a href="#" class="mr-3"><img src="{{ asset('assets/images/whatsapp-fill-white.png') }}" width="150%" alt="whatsapp"></a>
+                                    <a href="{{ route('pages.index') }}">
+                                        <img src="{{ asset('assets/images/ppv-logo-05.png') }}" alt="Perú People Vacations">
+                                    </a>
                                 </div>
                             </aside>
+                            <div class="d-flex justify-content-evenly mt-5 text-center">
+                                    <a href="#" target="_blank" class="m-0 p-0"><img src="{{ asset('assets/images/icono-09.png') }}" width="40%" alt="facebook"></a>
+                                    <a href="#" target="_blank" class="m-0 p-0"><img src="{{ asset('assets/images/icono-10.png') }}" width="40%" alt="instagram"></a>
+                                    <a href="#" target="_blank" class="m-0 p-0"><img src="{{ asset('assets/images/icono-11.png') }}" width="40%"  alt="whatsapp"></a>
+                                </div>
                         </div>
                         <div class="col-lg-4 col-md-6">
                             <aside class="widget widget_text">

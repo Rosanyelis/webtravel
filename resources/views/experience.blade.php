@@ -37,7 +37,7 @@
                         <div class="activity-item">
                             <div class="activity-icon">
                                 <a href="#">
-                                    <img src="assets/images/icon6.png" alt="">
+                                    <img src="{{ asset('assets/images/icono-15.png') }}" alt="">
                                 </a>
                             </div>
                             <div class="activity-content">
@@ -52,7 +52,7 @@
                         <div class="activity-item">
                             <div class="activity-icon">
                                 <a href="#">
-                                    <img src="assets/images/icon10.png" alt="">
+                                    <img src="{{ asset('assets/images/icono-16.png') }}" alt="">
                                 </a>
                             </div>
                             <div class="activity-content">
@@ -67,7 +67,7 @@
                         <div class="activity-item">
                             <div class="activity-icon">
                                 <a href="#">
-                                    <img src="assets/images/icon9.png" alt="">
+                                    <img src="{{ asset('assets/images/icono-18.png') }}" alt="">
                                 </a>
                             </div>
                             <div class="activity-content">
@@ -82,7 +82,7 @@
                         <div class="activity-item">
                             <div class="activity-icon">
                                 <a href="#">
-                                    <img src="assets/images/icon8.png" alt="">
+                                    <img src="{{ asset('assets/images/icono-19.png') }}" alt="">
                                 </a>
                             </div>
                             <div class="activity-content">

@@ -8,4 +8,4 @@ Route::get('/', [PagesController::class, 'index'])->name('pages.index');
 Route::get('/crafted-for-you', [PagesController::class, 'CraftedForYou'])->name('pages.CraftedForYou');
 Route::get('/experience', [PagesController::class, 'experience'])->name('pages.experience');
 Route::get('/highlights', [PagesController::class, 'highlights'])->name('pages.highlights');
-
+Route::get('/contact', [PagesController::class, 'contact'])->name('pages.contact');

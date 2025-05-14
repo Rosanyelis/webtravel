@@ -3301,7 +3301,7 @@ input[type=submit]:focus {
 }
 
 .bg-color-callback {
-  background-color: #0791BE;
+  background-color: #9B2431;
   padding-top: 50px;
   padding-bottom: 50px;
 }
@@ -4475,7 +4475,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
   margin-top: 15px;
 }
 .site-footer .award-img a {
-  width: 50%;
+  width: 90%;
 }
 .site-footer .award-img a:first-child {
   margin-right: 10px;
@@ -5846,7 +5846,7 @@ procduct details css
   margin-bottom: 0;
 }
 .contact-detail-wrap .details-list .icon {
-  background-color: #0791BE;
+  background-color: #9B2431;
   color: #ffffff;
   display: block;
   font-size: 25px;
