@@ -4467,15 +4467,15 @@ Due to the split circle of progress-left and progress right, we must use the ani
   display: -ms-flexbox;
   display: -webkit-flex;
   display: flex;
-  -webkit-align-items: center;
-  -moz-align-items: center;
-  -ms-align-items: center;
-  -ms-flex-align: center;
-  align-items: center;
+  -webkit-align-items: left;
+  -moz-align-items: left;
+  -ms-align-items: left;
+  -ms-flex-align: left;
+  align-items: left;
   margin-top: 15px;
 }
 .site-footer .award-img a {
-  width: 90%;
+  width: 70%;
 }
 .site-footer .award-img a:first-child {
   margin-right: 10px;

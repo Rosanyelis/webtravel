@@ -8,13 +8,14 @@
     <main id="content" class="site-main">
         <!-- Inner Banner html start-->
         <section class="inner-banner-wrap">
-            <div class="inner-baner-container" style="background-image: url(assets/images/inner-banner.png);">
+            <div class="inner-baner-container" style="background-image: url('{{ asset('assets/images/inner-banner.png') }}');">
                 <div class="container">
                     <div class="inner-banner-content">
-                        <h1 class="inner-title">CRAFTED FOR YOU</h1>
+                        <h1 class="inner-title">{{ __('site.crafted.title') }}</h1>
                     </div>
                 </div>
             </div>
+            <div class="inner-shape"></div>
         </section>
         <!-- Inner Banner html end-->
         <!-- about section html start -->
@@ -24,17 +25,12 @@
                     <div class="section-heading">
                         <div class="row align-items-end">
                             <div class="col-lg-6">
-                                <h5 class="dash-style">OUR WAY</h5>
-                                <h2>MORE THAN A
-                                    JOURNEY, A STORY
-                                    JUST FOR YOU.</h2>
+                                <h5 class="dash-style">{{ __('site.crafted.dash') }}</h5>
+                                <h2>{{ __('site.crafted.title') }}</h2>
                             </div>
                             <div class="col-lg-6">
                                 <div class="section-disc">
-                                    <p>Every traveler carries a dream, at Perú People Vacations, we craft
-                                        soulful experiences inspired by you, the land, and its people.
-                                        From sacred valleys to quiet conversations with locals, your path
-                                        unfolds with meaning, this is travel with intention. This is your story.</p>
+                                    <p>{{ __('site.crafted.description') }}</p>
                                 </div>
                             </div>
                         </div>
@@ -44,39 +40,39 @@
                             <div class="col-lg-4">
                                 <div class="about-service">
                                     <div class="about-service-icon">
-                                        <img src="assets/images/icon15.png" alt="">
+                                        <img src="{{ asset('assets/images/icon15.png') }}" alt="">
                                     </div>
                                     <div class="about-service-content">
-                                        <h4>BUILT AROUND YOU</h4>
-                                        <p>Your time, your style, your rhythm. We adapt.</p>
+                                        <h4>{{ __('site.crafted.service1.title') }}</h4>
+                                        <p>{{ __('site.crafted.service1.description') }}</p>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-lg-4">
                                 <div class="about-service">
                                     <div class="about-service-icon">
-                                        <img src="assets/images/icon16.png" alt="">
+                                        <img src="{{ asset('assets/images/icon16.png') }}" alt="">
                                     </div>
                                     <div class="about-service-content">
-                                        <h4>LOCALLY DESIGNED</h4>
-                                        <p>We work hand in hand with local experts.</p>
+                                        <h4>{{ __('site.crafted.service2.title') }}</h4>
+                                        <p>{{ __('site.crafted.service2.description') }}</p>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-lg-4">
                                 <div class="about-service">
                                     <div class="about-service-icon">
-                                        <img src="assets/images/icon17.png" alt="">
+                                        <img src="{{ asset('assets/images/icon17.png') }}" alt="">
                                     </div>
                                     <div class="about-service-content">
-                                        <h4>MADE WITH SOUL</h4>
-                                        <p>Every detail is shaped with care and heart.</p>
+                                        <h4>{{ __('site.crafted.service3.title') }}</h4>
+                                        <p>{{ __('site.crafted.service3.description') }}</p>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="about-video-wrap" style="background-image: url(assets/images/img25.jpg);"></div>
+                    <div class="about-video-wrap" style="background-image: url('{{ asset('assets/images/img25.jpg') }}');"></div>
                 </div>
             </div>
             <!-- client section html start -->
@@ -87,23 +83,24 @@
                             <div class="col-lg-5">
                                 <div class="faq-testimonial">
                                     <figure class="faq-image">
-                                        <img src="assets/images/img37.png" alt="">
+                                        <img src="{{ asset('assets/images/img37.png') }}" alt="">
                                     </figure>
                                     <div class="testimonial-content">
                                         <span class="quote-icon">
                                             <i class="fas fa-quote-left"></i>
                                         </span>
-                                        <p>Because the best journeys aren’t rushed,
-                                            they’re shaped with intention, inspired by you,
-                                            and lived deeply.”</p>
+                                        <p>{{ __('site.crafted.testimonial') }}</p>
                                     </div>
+                                    <figure class="faq-image">
+                                        <img src="{{ asset('assets/images/certificacion.jpg') }}" alt="">
+                                    </figure>
                                 </div>
                             </div>
                             <div class="col-lg-7">
                                 <div class="faq-content-wrap pl-20">
                                     <div class="section-heading">
-                                        <h5 class="dash-style">QUESTIONS / ANSWERS</h5>
-                                        <h2>BENEFITS & WHAT WE DO?</h2>
+                                        <h5 class="dash-style">{{ __('site.crafted.faq.dash') }}</h5>
+                                        <h2>{{ __('site.crafted.faq.title') }}</h2>
                                     </div>
                                     <div class="accordion" id="accordionTwo">
                                         <div class="card">
@@ -112,15 +109,14 @@
                                                     <button class="btn btn-link " type="button" data-toggle="collapse"
                                                         data-target="#collapseOne" aria-expanded="true"
                                                         aria-controls="collapseOne">
-                                                        IS TRANSPORTATION AND ACCOMMODATION INCLUDED IN THE PACKAGE?
+                                                        {{ __('site.crafted.faq.q1') }}
                                                     </button>
                                                 </h4>
                                             </div>
-                                            <div id="collapseOne" class="collapse" aria-labelledby="headingOne"
+                                            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
                                                 data-parent="#accordionTwo">
                                                 <div class="card-body">
-                                                    Yes, from the moment you arrive, we take care of your transport and
-                                                    stays, so you can just enjoy the journey without worry.
+                                                    {{ __('site.crafted.faq.a1') }}
                                                 </div>
                                             </div>
                                         </div>
@@ -130,15 +126,14 @@
                                                     <button class="btn btn-link collapsed" type="button"
                                                         data-toggle="collapse" data-target="#collapseTwo"
                                                         aria-expanded="false" aria-controls="collapseTwo">
-                                                        WILL SOMEONE GUIDE US THROUGHOUT THE EXPERIENCE?
+                                                        {{ __('site.crafted.faq.q2') }}
                                                     </button>
                                                 </h4>
                                             </div>
-                                            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo"
+                                            <div id="collapseTwo" class="collapse show" aria-labelledby="headingTwo"
                                                 data-parent="#accordionTwo">
-                                                <div class="card-body">
-                                                    Absolutely. You’ll be accompanied by local hosts and guides who know
-                                                    every corner, and love sharing their stories.
+                                                <div class="card-body">  
+                                                    {{ __('site.crafted.faq.a2') }}
                                                 </div>
                                             </div>
                                         </div>
@@ -148,15 +143,14 @@
                                                     <button class="btn btn-link collapsed" type="button"
                                                         data-toggle="collapse" data-target="#collapseThree"
                                                         aria-expanded="false" aria-controls="collapseThree">
-                                                        WHAT SHOULD I DO IN CASE OF AN EMERGENCY?
+                                                        {{ __('site.crafted.faq.q3') }}
                                                     </button>
                                                 </h4>
                                             </div>
-                                            <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
+                                            <div id="collapseThree" class="collapse show" aria-labelledby="headingThree"
                                                 data-parent="#accordionTwo">
                                                 <div class="card-body">
-                                                    We’ve got your back. You’ll have 24/7 support and clear instructions
-                                                    from the beginning, so you’ll never feel alone.
+                                                    {{ __('site.crafted.faq.a3') }}
                                                 </div>
                                             </div>
                                         </div>
@@ -166,22 +160,20 @@
                                                     <button class="btn btn-link collapsed" type="button"
                                                         data-toggle="collapse" data-target="#collapseFour"
                                                         aria-expanded="false" aria-controls="collapseFour">
-                                                        CAN I PERSONALIZE MY TRIP TO MATCH WHAT I LOVE?
+                                                        {{ __('site.crafted.faq.q4') }}
                                                     </button>
                                                 </h4>
                                             </div>
-                                            <div id="collapseFour" class="collapse" aria-labelledby="headingFour"
+                                            <div id="collapseFour" class="collapse show" aria-labelledby="headingFour"
                                                 data-parent="#accordionTwo">
                                                 <div class="card-body">
-                                                    Of course. Every trip is designed with your interests, energy and
-                                                    pace in
-                                                    mind, it’s your story, we just help you live it.
+                                                    {{ __('site.crafted.faq.a4') }}
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
 
-                                    <a href="#" class="button-primary mt-5">COMPLETE FAQ PAGE</a>
+                                    <a href="{{ route('pages.faq', ['locale' => App::getLocale()]) }}" class="button-primary mt-5">{{ __('site.crafted.faq.complete_button') }}</a>
                                 </div>
                                 
                             </div>
@@ -191,18 +183,17 @@
             </div>
             <!-- client html end -->
             <!-- callback section html start -->
-            <div class="fullwidth-callback" style="background-image: url(assets/images/img26.png);">
+            <div class="fullwidth-callback" style="background-image: url('{{ asset('assets/images/img26.png') }}');">
                 <div class="container">
                     <div class="section-heading section-heading-white text-center">
                         <div class="row">
                             <div class="col-lg-8 offset-lg-2">
-                                <h5 class="dash-style">CONTACT US FOR MORE</h5>
-                                <h2>YOUR JOURNEY BEGINS WITH A CONVERSATION</h2>
-                                <p>Tell us what’s calling you, a feeling, a place, a dream.
-                                    We’ll help you shape it into something unforgettable, crafted just for you.</p>
+                                <h5 class="dash-style">{{ __('site.crafted.contact.dash') }}</h5>
+                                <h2>{{ __('site.crafted.contact.title') }}</h2>
+                                <p>{{ __('site.crafted.contact.description') }}</p>
                             </div>
                         </div>
-                        <a href="#" class="button-white text-center mt-5">START YOUR PATH</a>
+                        <a href="#" class="button-white text-center mt-5">{{ __('site.crafted.contact.button') }}</a>
                     </div>
 
                 </div>

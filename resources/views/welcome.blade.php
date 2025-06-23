@@ -12,84 +12,50 @@
                 <div class="home-slider">
                     <div class="home-banner-items">
                         <div class="banner-inner-wrap"
-                            style="background-image: url(assets/images/slider-banner-1.jpg);"></div>
+                            style="background-image: url('assets/images/slider-banner-1.jpg');"></div>
                         <div class="banner-content-wrap">
                             <div class="container">
                                 <div class="banner-content text-center">
-                                    <h2 class="banner-title">EXPLORE, CONNECT, EXPERIENCE</h2>
-                                    <p>Discover Peru in a whole new way, authentic experiences, real connections, and 
-                                    unforgettable moments that feel made just for you.</p>
-                                    <a href="#" class="button-primary">DISCOVER US</a>
+                                    <h2 class="banner-title">{{ __('site.home.title') }}</h2>
+                                    <p>{{ __('site.home.description') }}</p>
+                                    <a href="#" class="button-primary">{{ __('site.home.button') }}</a>
                                 </div>
                             </div>
                         </div>
                         <div class="overlay"></div>
+                        <div class="inner-shape"></div>
                     </div>
                     <div class="home-banner-items">
                         <div class="banner-inner-wrap"
-                            style="background-image: url(assets/images/slider-banner-2.jpg);"></div>
+                            style="background-image: url('assets/images/slider-banner-2.jpg');"></div>
                         <div class="banner-content-wrap">
                             <div class="container">
                                 <div class="banner-content text-center">
-                                    <h2 class="banner-title">EXPERIENCE THE NATURE'S BEAUTY</h2>
-                                    <p>Taciti quasi, sagittis excepteur hymenaeos, id temporibus hic proident ullam,
-                                        eaque donec delectus tempor consectetur nunc, purus congue? Rem volutpat
-                                        sodales! Mollit. Minus exercitationem wisi.</p>
-                                    <a href="#" class="button-primary">CONTINUE READING</a>
+                                    <h2 class="banner-title">{{ __('site.home.slider2.title') }}</h2>
+                                    <p>{{ __('site.home.slider2.description') }}</p>
+                                    <a href="#" class="button-primary">{{ __('site.home.slider2.button') }}</a>
                                 </div>
                             </div>
                         </div>
                         <div class="overlay"></div>
+                        <div class="inner-shape"></div>
                     </div>
                 </div>
             </section>
             <!-- slider html start -->
-            <!-- Home search field html start -->
-            <div class="trip-search-section shape-search-section">
-                <div class="slider-shape"></div>
-                <div class="container">
-                    <div class="trip-search-inner white-bg d-flex">
-                        <div class="input-group">
-                            <label> Search Destination* </label>
-                            <input type="text" name="s" placeholder="Enter Destination">
-                        </div>
-                        <div class="input-group">
-                            <label> Pax Number* </label>
-                            <input type="text" name="s" placeholder="No.of People">
-                        </div>
-                        <div class="input-group width-col-3">
-                            <label> Checkin Date* </label>
-                            <i class="far fa-calendar"></i>
-                            <input class="input-date-picker" type="text" name="s" placeholder="MM / DD / YY"
-                                autocomplete="off" readonly="readonly">
-                        </div>
-                        <div class="input-group width-col-3">
-                            <label> Checkout Date* </label>
-                            <i class="far fa-calendar"></i>
-                            <input class="input-date-picker" type="text" name="s" placeholder="MM / DD / YY"
-                                autocomplete="off" readonly="readonly">
-                        </div>
-                        <div class="input-group width-col-3">
-                            <label class="screen-reader-text"> Search </label>
-                            <input type="submit" name="travel-search" value="INQUIRE NOW">
-                        </div>
-                    </div>
-                </div>
-            </div>
+            
             <!-- search search field html end -->
             <section class="destination-section">
                 <div class="container">
                     <div class="section-heading">
                         <div class="row align-items-end">
                             <div class="col-lg-7">
-                                <h5 class="dash-style">TOP PICKS</h5>
-                                <h2>GUEST FAVORITES</h2>
+                                <h5 class="dash-style">{{ __('site.home.top_picks.dash') }}</h5>
+                                <h2>{{ __('site.home.top_picks.title') }}</h2>
                             </div>
                             <div class="col-lg-5">
                                 <div class="section-disc">
-                                    From breathtaking landscapes to hidden gems, these 
-                                    are the places travelers love the most. Explore the 
-                                    must-visit spots that make every trip unforgettable.
+                                    {{ __('site.home.top_picks.description') }}
                                 </div>
                             </div>
                         </div>
@@ -102,13 +68,13 @@
                                         <div class="desti-item overlay-desti-item">
                                             <figure class="desti-image">
                                                 <img src="{{ asset('assets/images/img1.png') }}" 
-                                                alt="Rainbow Mountain">
+                                                alt="{{ __('site.home.destinations.rainbow_mountain') }}">
                                             </figure>
                                             <div class="meta-cat bg-meta-cat">
-                                                <a href="#">CUSCO</a>
+                                                <a href="#">{{ __('site.home.destinations.cusco') }}</a>
                                             </div>
                                             <div class="desti-content">
-                                                <h3><a href="#">Rainbow Mountain</a></h3>
+                                                <h3><a href="#">{{ __('site.home.destinations.rainbow_mountain') }}</a></h3>
                                             </div>
                                         </div>
                                     </div>
@@ -116,14 +82,14 @@
                                         <div class="desti-item overlay-desti-item">
                                             <figure class="desti-image">
                                                 <img src="{{ asset('assets/images/img2.png') }}" 
-                                                alt="Sacred Valley">
+                                                alt="{{ __('site.home.destinations.sacred_valley') }}">
                                             </figure>
                                             <div class="meta-cat bg-meta-cat">
-                                                <a href="#">CUSCO</a>
+                                                <a href="#">{{ __('site.home.destinations.cusco') }}</a>
                                             </div>
                                             <div class="desti-content">
                                                 <h3>
-                                                    <a href="#">Sacred Valley</a>
+                                                    <a href="#">{{ __('site.home.destinations.sacred_valley') }}</a>
                                                 </h3>
                                             </div>
                                         </div>
@@ -136,14 +102,14 @@
                                         <div class="desti-item overlay-desti-item">
                                             <figure class="desti-image">
                                                 <img src="{{ asset('assets/images/img3.png') }}" 
-                                                alt="Maras">
+                                                alt="{{ __('site.home.destinations.maras') }}">
                                             </figure>
                                             <div class="meta-cat bg-meta-cat">
-                                                <a href="#">CUSCO</a>
+                                                <a href="#">{{ __('site.home.destinations.cusco') }}</a>
                                             </div>
                                             <div class="desti-content">
                                                 <h3>
-                                                    <a href="#">Maras</a>
+                                                    <a href="#">{{ __('site.home.destinations.maras') }}</a>
                                                 </h3>
                                             </div>
                                         </div>
@@ -152,14 +118,14 @@
                                         <div class="desti-item overlay-desti-item">
                                             <figure class="desti-image">
                                                 <img src="{{ asset('assets/images/img4.png') }}" 
-                                                alt="City Tour">
+                                                alt="{{ __('site.home.destinations.city_tour') }}">
                                             </figure>
                                             <div class="meta-cat bg-meta-cat">
-                                                <a href="#">CUSCO</a>
+                                                <a href="#">{{ __('site.home.destinations.cusco') }}</a>
                                             </div>
                                             <div class="desti-content">
                                                 <h3>
-                                                    <a href="#">City Tour</a>
+                                                    <a href="#">{{ __('site.home.destinations.city_tour') }}</a>
                                                 </h3>
                                             </div>
                                         </div>
@@ -168,7 +134,7 @@
                             </div>
                         </div>
                         <div class="btn-wrap text-center">
-                            <a href="#" class="button-primary">MORE PLACES</a>
+                            <a href="#" class="button-primary">{{ __('site.home.top_picks.more_button') }}</a>
                         </div>
                     </div>
                 </div>
@@ -184,55 +150,53 @@
                         <div class="col-lg-7">
                             <div class="callback-inner">
                                 <div class="section-heading section-heading-white">
-                                    <h5 class="dash-style">OUR WAY</h5>
-                                    <h2>MORE THAN PLACES. <br>ALL ABOUT PEOPLE.</h2>
-                                    <p>We connect you with people, culture, and unforgettable 
-                                        moments. Travel isn’t just about seeing, it’s about feeling 
-                                        and truly experiencing every step.
+                                    <h5 class="dash-style">{{ __('site.home.callback.dash') }}</h5>
+                                    <h2>{{ __('site.home.callback.title') }}</h2>
+                                    <p>{{ __('site.home.callback.description') }}
                                     </p>
                                 </div>
                                 <div class="callback-counter-wrap">
                                     <div class="counter-item">
                                         <div class="counter-icon">
                                             <img src="{{ asset('assets/images/icono-01.png') }}" 
-                                             alt="Authentic Connections">
+                                             alt="{{ __('site.home.counter.authentic_connections') }}">
                                         </div>
                                         <div class="counter-content">
                                             <span class="counter-text">
-                                                Authentic <br> Connections
+                                                {{ __('site.home.counter.authentic_connections') }}
                                             </span>
                                         </div>
                                     </div>
                                     <div class="counter-item">
                                         <div class="counter-icon">
                                             <img src="{{ asset('assets/images/icono-02.png') }}" 
-                                            alt="Unforgettable Experiences">
+                                            alt="{{ __('site.home.counter.unforgettable_experiences') }}">
                                         </div>
                                         <div class="counter-content">
                                             <span class="counter-text">
-                                                Unforgettable <br> Experiences
+                                                {{ __('site.home.counter.unforgettable_experiences') }}
                                             </span>
                                         </div>
                                     </div>
                                     <div class="counter-item">
                                         <div class="counter-icon">
                                             <img src="{{ asset('assets/images/icono-03.png') }}" 
-                                            alt="Personalized Travel">
+                                            alt="{{ __('site.home.counter.personalized_travel') }}">
                                         </div>
                                         <div class="counter-content">
                                             <span class="counter-text">
-                                                Personalized <br> Travel
+                                                {{ __('site.home.counter.personalized_travel') }}
                                             </span>
                                         </div>
                                     </div>
                                     <div class="counter-item">
                                         <div class="counter-icon">
                                             <img src="{{ asset('assets/images/icono-04.png') }}" 
-                                            alt="Responsible Tourism">
+                                            alt="{{ __('site.home.counter.responsible_tourism') }}">
                                         </div>
                                         <div class="counter-content">
                                             <span class="counter-text">
-                                                Responsible <br> Tourism
+                                                {{ __('site.home.counter.responsible_tourism') }}
                                             </span>
                                         </div>
                                     </div>
@@ -240,12 +204,12 @@
                                 <div class="support-area">
                                     <div class="support-icon">
                                         <img src="{{ asset('assets/images/icono-05.png') }}" 
-                                        alt="Contact us for further Information">
+                                        alt="{{ __('site.home.support.title') }}">
                                     </div>
                                     <div class="support-content">
-                                        <h4>Contact us for further Information</h4>
+                                        <h4>{{ __('site.home.support.title') }}</h4>
                                         <h3>
-                                            <a href="#">+51 959 164 739</a>
+                                            <a href="#">{{ __('site.home.support.phone') }}</a>
                                         </h3>
                                     </div>
                                 </div>
@@ -263,15 +227,13 @@
                     <div class="row">
                         <div class="col-lg-5">
                             <div class="section-heading">
-                                <h5 class="dash-style">OUR GALLERY</h5>
-                                <h2>BEST TRAVELER’S PHOTOS</h2>
-                                <p>Every photo is a real moment from our journeys, 
-                                    captured by those who make them possible. 
-                                    Authentic, close, and full of Peru’s magic.</p>
+                                <h5 class="dash-style">{{ __('site.home.gallery.dash') }}</h5>
+                                <h2>{{ __('site.home.gallery.title') }}</h2>
+                                <p>{{ __('site.home.gallery.description') }}</p>
                             </div>
                             <figure class="gallery-img">
                                 <img src="{{ asset('assets/images/img12.jpg') }}" 
-                                alt="Best Traveler’s Photos">
+                                alt="{{ __('site.home.gallery.title') }}">
                             </figure>
                         </div>
                         <div class="col-lg-7">
@@ -279,13 +241,13 @@
                                 <div class="col-sm-6">
                                     <figure class="gallery-img">
                                         <img src="{{ asset('assets/images/img13.jpg') }}" 
-                                        alt="Best Traveler’s Photos">
+                                        alt="{{ __('site.home.gallery.title') }}">
                                     </figure>
                                 </div>
                                 <div class="col-sm-6">
                                     <figure class="gallery-img">
                                         <img src="{{ asset('assets/images/img14.jpg') }}" 
-                                        alt="Best Traveler’s Photos">
+                                        alt="{{ __('site.home.gallery.title') }}">
                                     </figure>
                                 </div>
                             </div>
@@ -293,7 +255,7 @@
                                 <div class="col-12">
                                     <figure class="gallery-img">
                                         <img src="{{ asset('assets/images/img15.jpg') }}" 
-                                        alt="Best Traveler’s Photos">
+                                        alt="{{ __('site.home.gallery.title') }}">
                                     </figure>
                                 </div>
                             </div>
@@ -315,13 +277,14 @@
                                         alt="Testimonial">
                                     </figure>
                                     <div class="testimonial-content">
-                                        <p>" Dolorum aenean dolorem minima! Voluptatum? Corporis condimentum ac primis
-                                            fusce, atque! Vivamus. Non cupiditate natus excepturi, quod quo, aute
-                                            facere? Deserunt aliquip, egestas ipsum, eu.Dolorum aenean dolorem minima!?
-                                            Corporis condi mentum acpri! "</p>
+                                        <p>" Todo fue espectacular. El tour está perfectamente coordinado y el guía Darío en Machu Pichu fue 
+                                            particular genial, conocía muy bien todo, cuido los tiempos, nos dio muy buenos consejos, muy paciente y
+                                             nos tomó unas fotos increíbles en varios puntos, parecía fotógrafo profesional, fue realmente muy amable y 
+                                             se nota que tiene demasiada experiencia, el mejor guía!!"</p>
                                         <cite>
-                                            Johny English
-                                            <span class="company">Travel Agent</span>
+                                            Carolina S.
+                                            <a href="https://www.tripadvisor.com.ve/ShowUserReviews-g294314-d17409231-r1005662108-Machupicchu_Inka_Trek-Cusco_Cusco_Region.html" 
+                                            target="_blank" class="company">Tripadvisor</a>
                                         </cite>
                                     </div>
                                 </div>
@@ -331,29 +294,36 @@
                                         alt="Testimonial">
                                     </figure>
                                     <div class="testimonial-content">
-                                        <p>" Dolorum aenean dolorem minima! Voluptatum? Corporis condimentum ac primis
-                                            fusce, atque! Vivamus. Non cupiditate natus excepturi, quod quo, aute
-                                            facere? Deserunt aliquip, egestas ipsum, eu.Dolorum aenean dolorem minima!?
-                                            Corporis condi mentum acpri! "</p>
+                                        <p>"¡Uno de los tours profesionales que hemos hecho!
+
+                                            José, nuestro guía, fue fenomenal - proporcionó el equilibrio perfecto de contexto histórico de las ruinas y permitió un tiempo más que suficiente para explorar los sitios visitados. Era muy amable y un guía apasionado. Nuestro piloto Richard también fue fantástico.
+
+                                            Nos recogieron directamente en el hotel, y debido a que éramos la única reserva para ese espacio, nos proporcionaron un tour personal para solo nosotros dos. Realmente apreciamos la personalización adicional y la atención!
+
+                                            Gracias José y Richard! "
+                                        </p>
                                         <cite>
-                                            William Housten
-                                            <span class="company">Travel Agent</span>
+                                            Rochelle R.
+                                            <a href="https://www.tripadvisor.com.ve/ShowUserReviews-g294314-d14135789-r1012623174-Andes_Peru_Tour_Adventure-Cusco_Cusco_Region.html" 
+                                            target="_blank" class="company">Tripadvisor</a>
                                         </cite>
                                     </div>
                                 </div>
                                 <div class="testimonial-item text-center">
-                                    <figure class="testimonial-img">
+                                <figure class="testimonial-img">
                                         <img src="{{ asset('assets/images/img22.jpg') }}" 
                                         alt="Testimonial">
                                     </figure>
                                     <div class="testimonial-content">
-                                        <p>" Dolorum aenean dolorem minima! Voluptatum? Corporis condimentum ac primis
-                                            fusce, atque! Vivamus. Non cupiditate natus excepturi, quod quo, aute
-                                            facere? Deserunt aliquip, egestas ipsum, eu.Dolorum aenean dolorem minima!?
-                                            Corporis condi mentum acpri! "</p>
+                                        <p>" Muy bonito tour, todo es muy interesante, el guía estuvo siempre atento a nuestras preguntas, 
+                                            se ofreció a sacarnos fotos e hizo todo lo posible por cumplir con los horarios, 
+                                            debido a que el tránsito en Ollaytantambo estaba atascado, por las fiestas. 
+                                            Resolvió y logramos llegar a todos los puntos mencionados en el itinerario. 
+                                            Los lugares visitados, sin duda, valen la pena."</p>
                                         <cite>
-                                            Alison Wright
-                                            <span class="company">Travel Guide</span>
+                                            Alejandro Yañez
+                                            <a href="https://www.tripadvisor.com.ve/ShowUserReviews-g294314-d19781844-r1013331361-Mega_Expeditions-Cusco_Cusco_Region.html" 
+                                            target="_blank" class="company">Tripadvisor</a>
                                         </cite>
                                     </div>
                                 </div>
@@ -381,18 +351,18 @@
                                                 <li>
                                                     <a href="#">
                                                         <i class="fas fa-phone-alt mr-2"></i>
-                                                        +51 959 164 739
+                                                        {{ __('site.home.contact.phone') }}
                                                     </a>
                                                 </li>
                                                 <li>
                                                     <a href="#">
                                                         <i class="fas fa-envelope mr-2"></i>
-                                                        perupeoplevacations.vip@gmail.com
+                                                        {{ __('site.home.contact.email') }}
                                                     </a>
                                                 </li>
                                                 <li>
                                                     <i class="fas fa-map-marker-alt mr-2"></i>
-                                                    Calle Mariano Castro 364, San Sebastián, Cusco - Perú
+                                                    {{ __('site.home.contact.address') }}
                                                 </li>
                                             </ul>
                                         </div>
@@ -400,8 +370,8 @@
                                 </div>
                             </div>
                             <div class="contact-btn-wrap">
-                                <h3>LEAVE US A MESSAGE!</h3>
-                                <a href="#" class="button-white">LEARN MORE</a>
+                                <h3>{{ __('site.home.contact.message_title') }}</h3>
+                                <a href="#" class="button-white">{{ __('site.home.contact.learn_more') }}</a>
                             </div>
                         </div>
                     </div>
@@ -411,9 +381,6 @@
         </main>
         @include('layouts.footer')
         <!-- footer html end -->
-        
-        
-        <!-- header html end -->
     </div>
 </div>
 @endsection

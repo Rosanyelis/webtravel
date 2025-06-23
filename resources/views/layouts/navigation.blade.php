@@ -5,7 +5,7 @@
                 <div class="container d-flex justify-content-between align-items-center">
                     <div class="site-identity">
                         <h1 class="site-title">
-                            <a href="{{ route('pages.index') }}">
+                            <a href="{{ route('pages.index', ['locale' => App::getLocale()]) }}">
                                 <img class="white-logo" src="{{ asset('assets/images/ppv-logo-05.png') }}" alt="logo">
                                 <img class="black-logo" src="{{ asset('assets/images/ppv-logo-black-06.png') }}" alt="logo">
                             </a>
@@ -15,22 +15,38 @@
                         <nav id="navigation" class="navigation">
                             <ul>
                                 <li class="menu-item @if(Route::currentRouteName() == 'pages.index') current-menu-item @endif ">
-                                    <a href="{{ route('pages.index') }}" >Home</a>
+                                    <a href="{{ route('pages.index', ['locale' => App::getLocale()]) }}" >{{ __('site.nav.home') }}</a>
                                 </li>
-                                <li class="menu-item @if(Route::currentRouteName() == 'pages.CraftedForYou') current-menu-item @endif">
-                                    <a href="{{ route('pages.CraftedForYou') }}">Crafted for You</a>
+                                <li class="menu-item @if(Route::currentRouteName() == 'pages.craftedforyou') current-menu-item @endif">
+                                    <a href="{{ route('pages.craftedforyou', ['locale' => App::getLocale()]) }}">{{ __('site.nav.crafted_for_you') }}</a>
                                 </li>
                                 <li class="menu-item @if(Route::currentRouteName() == 'pages.experience') current-menu-item @endif">
-                                    <a href="{{ route('pages.experience') }}">Experiences</a>
+                                    <a href="{{ route('pages.experience', ['locale' => App::getLocale()]) }}">{{ __('site.nav.experiences') }}</a>
                                 </li>
                                 <li class="menu-item @if(Route::currentRouteName() == 'pages.highlights') current-menu-item @endif">
-                                    <a href="{{ route('pages.highlights') }}">Highlights</a>
+                                    <a href="{{ route('pages.highlights', ['locale' => App::getLocale()]) }}">{{ __('site.nav.highlights') }}</a>
+                                </li>
+                                <li class="menu-item @if(Route::currentRouteName() == 'pages.faq') current-menu-item @endif">
+                                    <a href="{{ route('pages.faq', ['locale' => App::getLocale()]) }}">{{ __('site.faq') }}</a>
+                                </li>
+                                <li class="menu-item">
+                                    @php
+                                        $currentLocale = App::getLocale();
+                                        $otherLocale = ($currentLocale == 'es') ? 'en' : 'es';
+                                        $otherLocaleName = strtoupper($otherLocale);
+                                    @endphp
+                                    <a href="{{ route('lang.change', $otherLocale) }}" >
+                                        {{ $otherLocaleName }}
+                                    </a>
                                 </li>
                             </ul>
                         </nav>
                     </div>
-                    <div class="header-btn">
-                        <a href="{{ route('pages.contact') }}" class="button-primary">Start your Journey</a>
+                    <div class="header-actions d-flex align-items-center">
+                        
+                        <div class="header-btn">
+                            <a href="{{ route('pages.contact', ['locale' => App::getLocale()]) }}" class="button-primary">{{ __('site.nav.start_journey') }}</a>
+                        </div>
                     </div>
                 </div>
             </div>

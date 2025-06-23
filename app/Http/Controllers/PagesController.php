@@ -25,4 +25,16 @@ class PagesController extends Controller
     public function contact(){
         return view('contact');
     }
+
+    public function termandcondition(){
+        return view('termsandcondition');
+    }
+
+    public function policy(){
+        return view('policy');
+    }
+
+    public function faq(){
+        return view('faq');
+    }
 }
