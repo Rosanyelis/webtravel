@@ -23,11 +23,20 @@
                                 <li class="menu-item @if(Route::currentRouteName() == 'pages.experience') current-menu-item @endif">
                                     <a href="{{ route('pages.experience', ['locale' => App::getLocale()]) }}">{{ __('site.nav.experiences') }}</a>
                                 </li>
-                                <li class="menu-item @if(Route::currentRouteName() == 'pages.highlights') current-menu-item @endif">
-                                    <a href="{{ route('pages.highlights', ['locale' => App::getLocale()]) }}">{{ __('site.nav.highlights') }}</a>
+                                <li class="menu-item-has-children ">
+                                    <a href="javascript:void(0)">{{ __('site.nav.destinations') }}</a>
+                                    <ul>
+                                        <li><a href="{{ route('pages.peru', ['locale' => App::getLocale()]) }}">{{ __('site.nav.peru') }}</a></li>
+                                        <li><a href="{{ route('pages.colombia', ['locale' => App::getLocale()]) }}">{{ __('site.nav.colombia') }}</a></li>
+                                        <li><a href="{{ route('pages.bolivia', ['locale' => App::getLocale()]) }}">{{ __('site.nav.bolivia') }}</a></li>
+                                        <li><a href="{{ route('pages.ecuador', ['locale' => App::getLocale()]) }}">{{ __('site.nav.ecuador') }}</a></li>
+                                        <li><a href="{{ route('pages.chile', ['locale' => App::getLocale()]) }}">{{ __('site.nav.chile') }}</a></li>
+                                        <li><a href="{{ route('pages.brasil', ['locale' => App::getLocale()]) }}">{{ __('site.nav.brasil') }}</a></li>
+                                        <li><a href="{{ route('pages.argentina', ['locale' => App::getLocale()]) }}">{{ __('site.nav.argentina') }}</a></li>
+                                    </ul>
                                 </li>
-                                <li class="menu-item @if(Route::currentRouteName() == 'pages.faq') current-menu-item @endif">
-                                    <a href="{{ route('pages.faq', ['locale' => App::getLocale()]) }}">{{ __('site.faq') }}</a>
+                                <li class="menu-item @if(Route::currentRouteName() == 'pages.blog') current-menu-item @endif">
+                                    <a href="{{ route('pages.blog', ['locale' => App::getLocale()]) }}">{{ __('site.nav.blog') }}</a>
                                 </li>
                                 <li class="menu-item">
                                     @php

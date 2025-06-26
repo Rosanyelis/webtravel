@@ -72,7 +72,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="about-video-wrap" style="background-image: url('{{ asset('assets/images/img25.jpg') }}');"></div>
+                    <div class="about-video-wrap" style="background-image: url('{{ asset('assets/images/crafted-for-you.jpg') }}');"></div>
                 </div>
             </div>
             <!-- client section html start -->
@@ -193,7 +193,7 @@
                                 <p>{{ __('site.crafted.contact.description') }}</p>
                             </div>
                         </div>
-                        <a href="#" class="button-white text-center mt-5">{{ __('site.crafted.contact.button') }}</a>
+                        <a href="{{ route('pages.contact', app()->getLocale()) }}" class="button-white text-center mt-5">{{ __('site.crafted.contact.button') }}</a>
                     </div>
 
                 </div>

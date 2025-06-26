@@ -3117,7 +3117,7 @@ input[type=submit]:focus {
   -ms-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  padding: 25px 25px 18px 25px;
+  padding: 15px 15px 15px 15px;
   width: 50%;
 }
 .callback-counter-wrap .counter-icon {
@@ -3173,11 +3173,18 @@ input[type=submit]:focus {
     padding-left: 20px;
     text-align: right;
   }
+  .callback-counter-wrap .counter-text {
+    font-size: 18px;
+  }
 }
 @media screen and (max-width: 575px) {
   .callback-counter-wrap {
     margin-bottom: 30px;
   }
+  .callback-counter-wrap .counter-text {
+    font-size: 10px;
+  }
+
 }
 
 .callback-img {

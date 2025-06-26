@@ -1,7 +1,7 @@
 <footer id="colophon" class="site-footer footer-primary">
             <div class="top-footer">
                 <div class="container">
-                    <div class="row">
+                    <div class="row g-4">
                         <div class="col-lg-4 col-md-6">
                             <aside class="widget widget_text">
                                 
@@ -22,13 +22,13 @@
                                     <strong>{{ __('site.footer.city') }}:</strong> {{ __('site.footer.city') }}
                                 </div>
                             </aside>
-                            <div class="d-flex justify-content-between mt-2 text-center">
-                                    <a href="#" target="_blank" class="m-0 p-0"><i class="fab fa-facebook text-white fa-2x"></i></a>
-                                    <a href="#" target="_blank" class="m-0 p-0"><i class="fab fa-instagram text-white fa-2x"></i></a>
-                                    <a href="#" target="_blank" class="m-0 p-0"><i class="fab fa-whatsapp text-white fa-2x"></i></a>
-                                    <a href="#" target="_blank" class="m-0 p-0"><i class="fas fa-envelope text-white fa-2x"></i></a>
-                                    <a href="#" target="_blank" class="m-0 p-0"><i class="fas fa-phone-alt text-white fa-2x"></i></a>
-                                </div>
+                            <div class="d-flex justify-content-between mt-2 mb-5 text-center">
+                                <a href="https://fb.me/perupeoplevacations" target="_blank" class="m-0 p-0"><i class="fab fa-facebook text-white fa-2x"></i></a>
+                                <a href="https://instagram.com/perupeoplevacations" target="_blank" class="m-0 p-0"><i class="fab fa-instagram text-white fa-2x"></i></a>
+                                <a href="https://wa.me/+51959164739" target="_blank" class="m-0 p-0"><i class="fab fa-whatsapp text-white fa-2x"></i></a>
+                                <a href="mailto:info@perupeoplevacations.com" target="_blank"><i class="fas fa-envelope text-white fa-2x"></i></a>
+                                <a href="tel:+51959164739" target="_blank" class="m-0 p-0"><i class="fas fa-phone-alt text-white fa-2x"></i></a>
+                            </div>
                         </div>
                         <div class="col-lg-4 col-md-6">
                             <aside class="widget widget_text">
@@ -57,7 +57,7 @@
                                         </li>
                                         <li>
                                             <a href="{{ route('pages.contact', ['locale' => App::getLocale()]) }}">
-                                                {{ __('site.contact_us') }}
+                                                {{ __('site.nav.contact_us') }}
                                             </a>
                                         </li>
                                     </ul>
@@ -71,17 +71,17 @@
                                     <ul>
                                         <li>
                                             <a href="{{ route('pages.policy', ['locale' => App::getLocale()]) }}">
-                                                {{ __('site.privacy_policy') }}
+                                                {{ __('site.nav.privacy_policy') }}
                                             </a>
                                         </li>
                                         <li>
                                             <a href="{{ route('pages.termandcondition', ['locale' => App::getLocale()]) }}">
-                                                {{ __('site.terms_and_conditions') }}
+                                                {{ __('site.nav.terms_and_conditions') }}
                                             </a>
                                         </li>
                                         <li>
                                             <a href="{{ route('pages.faq', ['locale' => App::getLocale()]) }}">
-                                                {{ __('site.faq') }}
+                                                {{ __('site.nav.faq') }}
                                             </a>
                                         </li>
                                     </ul>

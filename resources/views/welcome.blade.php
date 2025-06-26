@@ -18,14 +18,14 @@
                                 <div class="banner-content text-center">
                                     <h2 class="banner-title">{{ __('site.home.title') }}</h2>
                                     <p>{{ __('site.home.description') }}</p>
-                                    <a href="#" class="button-primary">{{ __('site.home.button') }}</a>
+                                    <a href="" class="button-primary">{{ __('site.home.button') }}</a>
                                 </div>
                             </div>
                         </div>
                         <div class="overlay"></div>
                         <div class="inner-shape"></div>
                     </div>
-                    <div class="home-banner-items">
+                   {{--   <div class="home-banner-items">
                         <div class="banner-inner-wrap"
                             style="background-image: url('assets/images/slider-banner-2.jpg');"></div>
                         <div class="banner-content-wrap">
@@ -39,7 +39,7 @@
                         </div>
                         <div class="overlay"></div>
                         <div class="inner-shape"></div>
-                    </div>
+                    </div> --}}
                 </div>
             </section>
             <!-- slider html start -->
@@ -71,10 +71,10 @@
                                                 alt="{{ __('site.home.destinations.rainbow_mountain') }}">
                                             </figure>
                                             <div class="meta-cat bg-meta-cat">
-                                                <a href="#">{{ __('site.home.destinations.cusco') }}</a>
+                                                <a href="javascript:void(0)" style="pointer-events: none;">{{ __('site.home.destinations.cusco') }}</a>
                                             </div>
                                             <div class="desti-content">
-                                                <h3><a href="#">{{ __('site.home.destinations.rainbow_mountain') }}</a></h3>
+                                                <h3><a href="javascript:void(0)" style="pointer-events: none;">{{ __('site.home.destinations.rainbow_mountain') }}</a></h3>
                                             </div>
                                         </div>
                                     </div>
@@ -85,11 +85,11 @@
                                                 alt="{{ __('site.home.destinations.sacred_valley') }}">
                                             </figure>
                                             <div class="meta-cat bg-meta-cat">
-                                                <a href="#">{{ __('site.home.destinations.cusco') }}</a>
+                                                <a href="javascript:void(0)" style="pointer-events: none;">{{ __('site.home.destinations.cusco') }}</a>
                                             </div>
                                             <div class="desti-content">
                                                 <h3>
-                                                    <a href="#">{{ __('site.home.destinations.sacred_valley') }}</a>
+                                                    <a href="javascript:void(0)" style="pointer-events: none;">{{ __('site.home.destinations.sacred_valley') }}</a>
                                                 </h3>
                                             </div>
                                         </div>
@@ -105,11 +105,11 @@
                                                 alt="{{ __('site.home.destinations.maras') }}">
                                             </figure>
                                             <div class="meta-cat bg-meta-cat">
-                                                <a href="#">{{ __('site.home.destinations.cusco') }}</a>
+                                                <a href="javascript:void(0)" style="pointer-events: none;">{{ __('site.home.destinations.cusco') }}</a>
                                             </div>
                                             <div class="desti-content">
                                                 <h3>
-                                                    <a href="#">{{ __('site.home.destinations.maras') }}</a>
+                                                    <a href="javascript:void(0)" style="pointer-events: none;">{{ __('site.home.destinations.maras') }}</a>
                                                 </h3>
                                             </div>
                                         </div>
@@ -121,11 +121,11 @@
                                                 alt="{{ __('site.home.destinations.city_tour') }}">
                                             </figure>
                                             <div class="meta-cat bg-meta-cat">
-                                                <a href="#">{{ __('site.home.destinations.cusco') }}</a>
+                                                <a href="javascript:void(0)" style="pointer-events: none;">{{ __('site.home.destinations.cusco') }}</a>
                                             </div>
                                             <div class="desti-content">
                                                 <h3>
-                                                    <a href="#">{{ __('site.home.destinations.city_tour') }}</a>
+                                                    <a href="javascript:void(0)" style="pointer-events: none;">{{ __('site.home.destinations.city_tour') }}</a>
                                                 </h3>
                                             </div>
                                         </div>
@@ -134,7 +134,7 @@
                             </div>
                         </div>
                         <div class="btn-wrap text-center">
-                            <a href="#" class="button-primary">{{ __('site.home.top_picks.more_button') }}</a>
+                            <a href="{{ route('pages.peru', app()->getLocale()) }}" class="button-primary">{{ __('site.home.top_picks.more_button') }}</a>
                         </div>
                     </div>
                 </div>
@@ -209,7 +209,7 @@
                                     <div class="support-content">
                                         <h4>{{ __('site.home.support.title') }}</h4>
                                         <h3>
-                                            <a href="#">{{ __('site.home.support.phone') }}</a>
+                                            <a href="https://wa.me/+51959164739" target="_blank">{{ __('site.home.support.phone') }}</a>
                                         </h3>
                                     </div>
                                 </div>
@@ -222,7 +222,7 @@
             
             
             <!-- Home special section html start -->
-            <section class="best-section">
+            <section class="best-section mb-5">
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-5">
@@ -232,7 +232,7 @@
                                 <p>{{ __('site.home.gallery.description') }}</p>
                             </div>
                             <figure class="gallery-img">
-                                <img src="{{ asset('assets/images/img12.jpg') }}" 
+                                <img src="{{ asset('assets/images/highligths/IMG_9671.jpg') }}" 
                                 alt="{{ __('site.home.gallery.title') }}">
                             </figure>
                         </div>
@@ -240,13 +240,13 @@
                             <div class="row">
                                 <div class="col-sm-6">
                                     <figure class="gallery-img">
-                                        <img src="{{ asset('assets/images/img13.jpg') }}" 
+                                        <img src="{{ asset('assets/images/highligths/IMG_9757.jpg') }}" 
                                         alt="{{ __('site.home.gallery.title') }}">
                                     </figure>
                                 </div>
                                 <div class="col-sm-6">
                                     <figure class="gallery-img">
-                                        <img src="{{ asset('assets/images/img14.jpg') }}" 
+                                        <img src="{{ asset('assets/images/highligths/IMG_9733.jpg') }}" 
                                         alt="{{ __('site.home.gallery.title') }}">
                                     </figure>
                                 </div>
@@ -254,7 +254,7 @@
                             <div class="row">
                                 <div class="col-12">
                                     <figure class="gallery-img">
-                                        <img src="{{ asset('assets/images/img15.jpg') }}" 
+                                        <img src="{{ asset('assets/images/highligths/home1.png') }}" 
                                         alt="{{ __('site.home.gallery.title') }}">
                                     </figure>
                                 </div>
@@ -264,77 +264,9 @@
                 </div>
             </section>
             <!-- best html end -->
-            <!-- Home testimonial section html start -->
-            <div class="testimonial-section" 
-            style="background-image: url({{ asset('assets/images/img23.jpg') }});">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-10 offset-lg-1">
-                            <div class="testimonial-inner testimonial-slider">
-                                <div class="testimonial-item text-center">
-                                    <figure class="testimonial-img">
-                                        <img src="{{ asset('assets/images/img20.jpg') }}" 
-                                        alt="Testimonial">
-                                    </figure>
-                                    <div class="testimonial-content">
-                                        <p>" Todo fue espectacular. El tour está perfectamente coordinado y el guía Darío en Machu Pichu fue 
-                                            particular genial, conocía muy bien todo, cuido los tiempos, nos dio muy buenos consejos, muy paciente y
-                                             nos tomó unas fotos increíbles en varios puntos, parecía fotógrafo profesional, fue realmente muy amable y 
-                                             se nota que tiene demasiada experiencia, el mejor guía!!"</p>
-                                        <cite>
-                                            Carolina S.
-                                            <a href="https://www.tripadvisor.com.ve/ShowUserReviews-g294314-d17409231-r1005662108-Machupicchu_Inka_Trek-Cusco_Cusco_Region.html" 
-                                            target="_blank" class="company">Tripadvisor</a>
-                                        </cite>
-                                    </div>
-                                </div>
-                                <div class="testimonial-item text-center">
-                                    <figure class="testimonial-img">
-                                        <img src="{{ asset('assets/images/img21.jpg') }}" 
-                                        alt="Testimonial">
-                                    </figure>
-                                    <div class="testimonial-content">
-                                        <p>"¡Uno de los tours profesionales que hemos hecho!
-
-                                            José, nuestro guía, fue fenomenal - proporcionó el equilibrio perfecto de contexto histórico de las ruinas y permitió un tiempo más que suficiente para explorar los sitios visitados. Era muy amable y un guía apasionado. Nuestro piloto Richard también fue fantástico.
-
-                                            Nos recogieron directamente en el hotel, y debido a que éramos la única reserva para ese espacio, nos proporcionaron un tour personal para solo nosotros dos. Realmente apreciamos la personalización adicional y la atención!
-
-                                            Gracias José y Richard! "
-                                        </p>
-                                        <cite>
-                                            Rochelle R.
-                                            <a href="https://www.tripadvisor.com.ve/ShowUserReviews-g294314-d14135789-r1012623174-Andes_Peru_Tour_Adventure-Cusco_Cusco_Region.html" 
-                                            target="_blank" class="company">Tripadvisor</a>
-                                        </cite>
-                                    </div>
-                                </div>
-                                <div class="testimonial-item text-center">
-                                <figure class="testimonial-img">
-                                        <img src="{{ asset('assets/images/img22.jpg') }}" 
-                                        alt="Testimonial">
-                                    </figure>
-                                    <div class="testimonial-content">
-                                        <p>" Muy bonito tour, todo es muy interesante, el guía estuvo siempre atento a nuestras preguntas, 
-                                            se ofreció a sacarnos fotos e hizo todo lo posible por cumplir con los horarios, 
-                                            debido a que el tránsito en Ollaytantambo estaba atascado, por las fiestas. 
-                                            Resolvió y logramos llegar a todos los puntos mencionados en el itinerario. 
-                                            Los lugares visitados, sin duda, valen la pena."</p>
-                                        <cite>
-                                            Alejandro Yañez
-                                            <a href="https://www.tripadvisor.com.ve/ShowUserReviews-g294314-d19781844-r1013331361-Mega_Expeditions-Cusco_Cusco_Region.html" 
-                                            target="_blank" class="company">Tripadvisor</a>
-                                        </cite>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- testimonial html end -->
+           
             <!-- Home contact details section html start -->
-            <section class="contact-section">
+            <section class="contact-section mt-5">
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-4">
@@ -349,16 +281,12 @@
                                         <div class="contact-details">
                                             <ul>
                                                 <li>
-                                                    <a href="#">
-                                                        <i class="fas fa-phone-alt mr-2"></i>
-                                                        {{ __('site.home.contact.phone') }}
-                                                    </a>
+                                                    <i class="fas fa-phone-alt mr-2"></i>
+                                                    {{ __('site.home.contact.phone') }}
                                                 </li>
                                                 <li>
-                                                    <a href="#">
-                                                        <i class="fas fa-envelope mr-2"></i>
-                                                        {{ __('site.home.contact.email') }}
-                                                    </a>
+                                                    <i class="fas fa-envelope mr-2"></i>
+                                                    {{ __('site.home.contact.email') }}
                                                 </li>
                                                 <li>
                                                     <i class="fas fa-map-marker-alt mr-2"></i>
@@ -371,7 +299,7 @@
                             </div>
                             <div class="contact-btn-wrap">
                                 <h3>{{ __('site.home.contact.message_title') }}</h3>
-                                <a href="#" class="button-white">{{ __('site.home.contact.learn_more') }}</a>
+                                <a href="{{ route('pages.contact', app()->getLocale()) }}" class="button-white">{{ __('site.home.contact.learn_more') }}</a>
                             </div>
                         </div>
                     </div>
