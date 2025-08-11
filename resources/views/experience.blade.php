@@ -43,7 +43,7 @@
                             <div class="package-wrap">
                                 <figure class="feature-image">
                                     <a href="{{ route('pages.experienceone', app()->getLocale()) }}">
-                                        <img src="{{ asset('assets/images/wellnes-trip.png') }}" alt="">
+                                        <img src="{{ asset('assets/images/by-theme/wellnes-trip.avif') }}" alt="{{ __('site.experience.themes.wellness_trip') }}">
                                     </a>
                                 </figure>
                                 
@@ -69,7 +69,7 @@
                             <div class="package-wrap">
                                 <figure class="feature-image">
                                     <a href="{{ route('pages.experiencetwo', app()->getLocale()) }}">
-                                        <img src="{{ asset('assets/images/food-travel.webp') }}" alt="">
+                                        <img src="{{ asset('assets/images/by-theme/food-travel.avif') }}" alt="{{ __('site.experience.themes.food_travel') }}">
                                     </a>
                                 </figure>
                                 
@@ -93,7 +93,7 @@
                             <div class="package-wrap">
                                 <figure class="feature-image">
                                     <a href="{{ route('pages.experiencethree', app()->getLocale()) }}">
-                                        <img src="{{ asset('assets/images/family-tours.webp') }}" alt="">
+                                        <img src="{{ asset('assets/images/by-theme/family-tours.avif') }}" alt="{{ __('site.experience.themes.family_tours') }}">
                                     </a>
                                 </figure>
                                 
@@ -117,7 +117,7 @@
                             <div class="package-wrap">
                                 <figure class="feature-image">
                                     <a href="{{ route('pages.experiencefour', app()->getLocale()) }}">
-                                        <img src="{{ asset('assets/images/sightseeing-tours.webp') }}" alt="">
+                                        <img src="{{ asset('assets/images/by-theme/sightseeing-tours.avif') }}" alt="{{ __('site.experience.themes.sightseeing_tours') }}">
                                     </a>
                                 </figure>
                                 
@@ -141,7 +141,7 @@
                             <div class="package-wrap">
                                 <figure class="feature-image">
                                     <a href="{{ route('pages.experiencefive', app()->getLocale()) }}">
-                                        <img src="{{ asset('assets/images/walking-tours.webp') }}" alt="">
+                                        <img src="{{ asset('assets/images/by-theme/walking-tours.avif') }}" alt="{{ __('site.experience.themes.walking_tours') }}">
                                     </a>
                                 </figure>
                                 
@@ -165,7 +165,7 @@
                             <div class="package-wrap">
                                 <figure class="feature-image">
                                     <a href="{{ route('pages.experiencesix', app()->getLocale()) }}">
-                                        <img src="{{ asset('assets/images/romantic-vacations-honeymoom.webp') }}" alt="">
+                                        <img src="{{ asset('assets/images/by-theme/romantic-vacations-honeymoom.avif') }}" alt="{{ __('site.experience.themes.romantic_vacations') }}">
                                     </a>
                                 </figure>
                                 <div class="package-content-wrap">
@@ -215,7 +215,7 @@
                             <div class="package-wrap">
                                 <figure class="feature-image">
                                     <a href="{{ route('pages.experienceseven', app()->getLocale()) }}">
-                                        <img src="{{ asset('assets/images/travel-together1.webp') }}" alt="">
+                                        <img src="{{ asset('assets/images/by-group/travel-together1.avif') }}" alt="{{ __('site.experience.groups.travel_together') }}">
                                     </a>
                                 </figure>
                                 
@@ -239,7 +239,7 @@
                             <div class="package-wrap">
                                 <figure class="feature-image">
                                     <a href="{{ route('pages.experienceeight', app()->getLocale()) }}">
-                                        <img src="{{ asset('assets/images/empowering-solo-journeys.webp') }}" alt="">
+                                        <img src="{{ asset('assets/images/by-group/empowering-solo-journeys.avif') }}" alt="{{ __('site.experience.groups.solo_journeys') }}">
                                     </a>
                                 </figure>
                                 
@@ -263,7 +263,7 @@
                             <div class="package-wrap">
                                 <figure class="feature-image">
                                     <a href="{{ route('pages.experiencenine', app()->getLocale()) }}">
-                                        <img src="{{ asset('assets/images/tailor-made-travel.webp') }}" alt="">
+                                        <img src="{{ asset('assets/images/by-group/tailor-made-travel.avif') }}" alt="{{ __('site.experience.groups.tailor_made') }}">
                                     </a>
                                 </figure>
                                 
@@ -287,7 +287,7 @@
                             <div class="package-wrap">
                                 <figure class="feature-image">
                                     <a href="{{ route('pages.experienceten', app()->getLocale()) }}">
-                                        <img src="{{ asset('assets/images/small-group-adventures.webp') }}" alt="">
+                                        <img src="{{ asset('assets/images/by-group/small-group-adventures.avif') }}" alt="{{ __('site.experience.groups.small_group') }}">
                                     </a>
                                 </figure>
                                 
@@ -311,7 +311,7 @@
                             <div class="package-wrap">
                                 <figure class="feature-image">
                                     <a href="{{ route('pages.experienceeleven', app()->getLocale()) }}">
-                                        <img src="{{ asset('assets/images/cherished-moments.webp') }}" alt="">
+                                        <img src="{{ asset('assets/images/by-group/cherished-moments.avif') }}" alt="{{ __('site.experience.groups.couples') }}">
                                     </a>
                                 </figure>
                                 

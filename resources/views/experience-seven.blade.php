@@ -25,7 +25,7 @@
                         <div class="col-lg-8 primary right-sidebar">
                             <!-- single blog post html start -->
                             <figure class="feature-image">
-                                <img src="{{ asset('assets/images/travel-together.webp') }}" alt="">
+                                <img src="{{ asset('assets/images/by-group/travel-together1.avif') }}" alt="{{ __('site.experience.groups.travel_together') }}">
                             </figure>
                             <article class="single-content-wrap">
                                 <h3 class="text-center">{{ __('site.experience.travel_together.title') }}</h3>

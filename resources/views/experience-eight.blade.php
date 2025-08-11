@@ -25,7 +25,7 @@
                         <div class="col-lg-8 primary right-sidebar">
                             <!-- single blog post html start -->
                             <figure class="feature-image">
-                                <img src="{{ asset('assets/images/empowering-solo-journeys2.webp') }}" alt="">
+                                <img src="{{ asset('assets/images/by-group/empowering-solo-journeys.avif') }}" alt="{{ __('site.experience.groups.solo_journeys') }}">
                             </figure>
                             <article class="single-content-wrap">
                                 <h3 class="text-center">{{ __('site.experience.solo_journeys.title') }}</h3>

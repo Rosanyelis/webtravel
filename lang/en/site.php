@@ -222,6 +222,12 @@ return [
     
     'faq.q11' => 'How do I get to Machu Picchu?',
     'faq.a11' => 'Access to Machu Picchu is by train from Cusco to Aguas Calientes, followed by a bus ride to the site. We arrange all transportation as part of your tour package.',
+
+    'faq.q12' => 'How can I find details about meals included?',
+    'faq.a12' => 'You can find this information within the daily itinerary provided for your trip.',
+    
+    'faq.q13' => 'How can I stay connected during my trip?',
+    'faq.a13' => 'Sharing your travel adventures with loved ones is key. If you bring a smartphone, check with your service provider for international data rates. Consider turning off data roaming or obtaining a prepaid SIM card to control costs. Hotel calls can be expensive, but using a prepaid calling card, easily found in stores, can save you money. Ask your Travel Director for details. Additionally, enjoy free WiFi access at your hotel.',
     
     'faq.questions_title' => 'Do you have questions?',
     

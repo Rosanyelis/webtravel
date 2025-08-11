@@ -22,7 +22,52 @@
         <section class="about-section about-page-section">
             <div class="about-service-wrap">
                 <div class="container">
-                    <div class="section-heading">
+                    <div class="section-heading mb-5">
+                        <div class="row align-items-end">
+                            <div class="col-lg-12 text-center">
+                                <h5 class="dash-style">{{ __('aboutus.title') }}</h5>
+                                <h2>{{ __('aboutus.who-we-are') }} </h2>
+                            </div>
+                            <div class="col-lg-12">
+                                <div class="section-disc text-center">
+                                    <p>{{ __('aboutus.who-we-are-description') }}
+                                    </p>
+                                    <p>
+                                        {{ __('aboutus.who-we-are-description-2') }}
+                                    </p>
+                                    <p>
+                                        {{ __('aboutus.who-we-are-description-3') }}
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="section-heading mb-5">
+                        <div class="row">
+                            <div class="col-lg-12 text-center">
+                                <h5 class="dash-style">{{ __('aboutus.title') }}</h5>
+                                <h2>{{ __('aboutus.unlock-the-ppv-difference') }} </h2>
+                                <p>
+                                    {{ __('aboutus.unlock-the-ppv-difference-description') }}
+                                </p>
+                            </div>
+                            <div class="col-lg-12">
+                                <div class="section-disc">
+                                    <ul>
+                                        <li>{{ __('aboutus.unlock-the-ppv-difference-description-2') }}
+                                        </li>
+                                        <li>
+                                            {{ __('aboutus.unlock-the-ppv-difference-description-3') }}
+                                        </li>
+                                        <li>
+                                            {{ __('aboutus.unlock-the-ppv-difference-description-4') }}
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="section-heading mb-5">
                         <div class="row align-items-end">
                             <div class="col-lg-6">
                                 <h5 class="dash-style">{{ __('site.crafted.dash') }}</h5>
@@ -72,7 +117,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="about-video-wrap" style="background-image: url('{{ asset('assets/images/crafted-for-you.jpg') }}');"></div>
+                    <div class="about-video-wrap" style="background-image: url('{{ asset('assets/images/crafted-for-you.avif') }}');"></div>
                 </div>
             </div>
             <!-- client section html start -->
@@ -83,7 +128,7 @@
                             <div class="col-lg-5">
                                 <div class="faq-testimonial">
                                     <figure class="faq-image">
-                                        <img src="{{ asset('assets/images/img37.png') }}" alt="">
+                                        <img src="{{ asset('assets/images/img37.avif') }}" alt="">
                                     </figure>
                                     <div class="testimonial-content">
                                         <span class="quote-icon">
@@ -183,7 +228,7 @@
             </div>
             <!-- client html end -->
             <!-- callback section html start -->
-            <div class="fullwidth-callback" style="background-image: url('{{ asset('assets/images/img26.png') }}');">
+            <div class="fullwidth-callback" style="background-image: url('{{ asset('assets/images/img26.avif') }}');">
                 <div class="container">
                     <div class="section-heading section-heading-white text-center">
                         <div class="row">

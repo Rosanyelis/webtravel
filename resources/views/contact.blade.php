@@ -8,7 +8,7 @@
     <main id="content" class="site-main">
         <!-- Inner Banner html start-->
         <section class="inner-banner-wrap">
-            <div class="inner-baner-container" style="background-image: url({{ asset('assets/images/contact.png') }});">
+            <div class="inner-baner-container" style="background-image: url({{ asset('assets/images/contact.avif') }});">
                 <div class="container">
                     <div class="inner-banner-content">
                         <h1 class="inner-title">{{ __('site.contact.title') }}</h1>
@@ -29,10 +29,11 @@
                                 <h2>{{ __('site.contact.subtitle') }}</h2>
                                 <p>{{ __('site.contact.description') }}</p>
                             </div>
-                            <form class="contact-from">
-                                <p><input type="text" name="name" placeholder="{{ __('site.contact.form.name_placeholder') }}"></p>
-                                <p><input type="email" name="email" placeholder="{{ __('site.contact.form.email_placeholder') }}"></p>
-                                <p><textarea rows="8" placeholder="{{ __('site.contact.form.message_placeholder') }}"></textarea></p>
+                            <form class="contact-from" action="{{ route('contact.send', ['locale' => app()->getLocale()]) }}" method="POST">
+                                @csrf
+                                <p><input type="text" name="name" placeholder="{{ __('site.contact.form.name_placeholder') }}" required></p>
+                                <p><input type="email" name="email" placeholder="{{ __('site.contact.form.email_placeholder') }}" required></p>
+                                <p><textarea rows="8" name="message" placeholder="{{ __('site.contact.form.message_placeholder') }}" required></textarea></p>
                                 <p><input type="submit" name="submit" value="{{ __('site.contact.form.submit') }}"></p>
                             </form>
                         </div>

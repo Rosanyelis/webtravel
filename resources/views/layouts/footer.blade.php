@@ -23,11 +23,21 @@
                                 </div>
                             </aside>
                             <div class="d-flex justify-content-between mt-2 mb-5 text-center">
-                                <a href="https://fb.me/perupeoplevacations" target="_blank" class="m-0 p-0"><i class="fab fa-facebook text-white fa-2x"></i></a>
-                                <a href="https://instagram.com/perupeoplevacations" target="_blank" class="m-0 p-0"><i class="fab fa-instagram text-white fa-2x"></i></a>
-                                <a href="https://wa.me/+51959164739" target="_blank" class="m-0 p-0"><i class="fab fa-whatsapp text-white fa-2x"></i></a>
-                                <a href="mailto:info@perupeoplevacations.com" target="_blank"><i class="fas fa-envelope text-white fa-2x"></i></a>
-                                <a href="tel:+51959164739" target="_blank" class="m-0 p-0"><i class="fas fa-phone-alt text-white fa-2x"></i></a>
+                                <a href="https://fb.me/perupeoplevacations"  target="_blank" class="m-0 p-0">
+                                    <i class="fab fa-facebook text-white fa-2x"></i>
+                                </a>
+                                <a href="https://instagram.com/perupeoplevacations" target="_blank" class="m-0 p-0">
+                                    <i class="fab fa-instagram text-white fa-2x"></i>
+                                </a>
+                                <a href="https://wa.me/+51959164739" target="_blank" class="m-0 p-0">
+                                    <i class="fab fa-whatsapp text-white fa-2x"></i>
+                                </a>
+                                <a href="mailto:info@perupeoplevacations.com" target="_blank">
+                                    <i class="fas fa-envelope text-white fa-2x"></i>
+                                </a>
+                                <a href="tel:+51959164739" target="_blank" class="m-0 p-0">
+                                    <i class="fas fa-phone-alt text-white fa-2x"></i>
+                                </a>
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-6">

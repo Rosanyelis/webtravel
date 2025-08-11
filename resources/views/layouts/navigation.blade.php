@@ -35,9 +35,7 @@
                                         <li><a href="{{ route('pages.argentina', ['locale' => App::getLocale()]) }}">{{ __('site.nav.argentina') }}</a></li>
                                     </ul>
                                 </li>
-                                <li class="menu-item @if(Route::currentRouteName() == 'pages.blog') current-menu-item @endif">
-                                    <a href="{{ route('pages.blog', ['locale' => App::getLocale()]) }}">{{ __('site.nav.blog') }}</a>
-                                </li>
+                                
                                 <li class="menu-item">
                                     @php
                                         $currentLocale = App::getLocale();

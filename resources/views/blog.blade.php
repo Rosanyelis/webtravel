@@ -12,7 +12,7 @@
                 <div class="home-slider">
                     <div class="home-banner-items">
                         <div class="banner-inner-wrap"
-                            style="background-image: url('assets/images/slider-banner-1.jpg');"></div>
+                            style="background-image: url('assets/images/slider-banner-1.avif');"></div>
                         <div class="banner-content-wrap">
                             <div class="container">
                                 <div class="banner-content text-center">

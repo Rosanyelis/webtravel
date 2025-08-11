@@ -33,6 +33,179 @@
 
                                 <p>{{ __('site.peru.cities.cusco.description') }}</p>
                             </article>
+
+                            <div class="row">
+                                <div class="col-lg-4 col-md-6">
+                                    <div class="package-wrap">
+                                        <figure class="feature-image mb-3">
+                                            <img src="{{ asset('assets/images/cusco/city-tour.avif') }}" alt="{{ __('cusco.city-tour') }}">
+                                        </figure>
+                                        
+                                        <div class="package-content-wrap ">
+                                            <div class="package-content px-3 pb-3">
+                                                <h4 class="mb-2" >{{ __('cusco.city-tour') }}</h4>
+                                                <p style="font-size: 14px; line-height: 1.5; text-align: justify;">
+                                                    {{ __('cusco.city-tour-description') }}
+                                                </p>
+                                                <div class="btn-wrap justify-content-center "></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-4 col-md-6">
+                                    <div class="package-wrap">
+                                        <figure class="feature-image mb-3">
+                                            <img src="{{ asset('assets/images/cusco/sacred-valley.avif') }}" 
+                                             alt="{{ __('cusco.tour-valle-sagrado') }}">
+                                        </figure>
+                                        
+                                        <div class="package-content-wrap ">
+                                            <div class="package-content px-3 pb-3">
+                                                <h4 class="mb-2" >{{ __('cusco.tour-valle-sagrado') }}</h4>
+                                                <p style="font-size: 14px; line-height: 1.5; text-align: justify;">
+                                                    {{ __('cusco.tour-valle-sagrado-description') }}
+                                                </p>
+                                                <div class="btn-wrap justify-content-center "></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-4 col-md-6">
+                                    <div class="package-wrap">
+                                        <figure class="feature-image mb-3">
+                                            <img src="{{ asset('assets/images/cusco/machu-picchu.avif') }}" 
+                                             alt="{{ __('cusco.machu-picchu') }}">
+                                        </figure>
+                                        
+                                        <div class="package-content-wrap ">
+                                            <div class="package-content px-3 pb-3">
+                                                <h4 class="mb-2" >{{ __('cusco.machu-picchu') }}</h4>
+                                                <p style="font-size: 14px; line-height: 1.5; text-align: justify;">
+                                                    {{ __('cusco.machu-picchu-description') }}
+                                                </p>
+                                                <div class="btn-wrap justify-content-center "></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-4 col-md-6">
+                                    <div class="package-wrap">
+                                        <figure class="feature-image mb-3">
+                                            <img src="{{ asset('assets/images/cusco/rainbow-mountain.avif') }}" 
+                                             alt="{{ __('cusco.rainbow-mountain') }}">
+                                        </figure>
+                                        
+                                        <div class="package-content-wrap ">
+                                            <div class="package-content px-3 pb-3">
+                                                <h4 class="mb-2" >{{ __('cusco.rainbow-mountain') }}</h4>
+                                                <p style="font-size: 14px; line-height: 1.5; text-align: justify;">
+                                                    {{ __('cusco.rainbow-mountain-description') }}
+                                                </p>
+                                                <div class="btn-wrap justify-content-center "></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-4 col-md-6">
+                                    <div class="package-wrap">
+                                        <figure class="feature-image mb-3">
+                                            <img src="{{ asset('assets/images/cusco/humantay-lake.avif') }}" 
+                                             alt="{{ __('cusco.laguna-humantay') }}">
+                                        </figure>
+                                        
+                                        <div class="package-content-wrap ">
+                                            <div class="package-content px-3 pb-3">
+                                                <h4 class="mb-2" >{{ __('cusco.laguna-humantay') }}</h4>
+                                                <p style="font-size: 14px; line-height: 1.5; text-align: justify;">
+                                                    {{ __('cusco.laguna-humantay-description') }}
+                                                </p>
+                                                <div class="btn-wrap justify-content-center "></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-4 col-md-6">
+                                    <div class="package-wrap">
+                                        <figure class="feature-image mb-3">
+                                            <img src="{{ asset('assets/images/cusco/maras.avif') }}" 
+                                             alt="{{ __('cusco.maras') }}">
+                                        </figure>
+                                        
+                                        <div class="package-content-wrap ">
+                                            <div class="package-content px-3 pb-3">
+                                                <h4 class="mb-2" >{{ __('cusco.maras') }}</h4>
+                                                <p style="font-size: 14px; line-height: 1.5; text-align: justify;">
+                                                    {{ __('cusco.maras-description') }}
+                                                </p>
+                                                <div class="btn-wrap justify-content-center "></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-4 col-md-6">
+                                    <div class="package-wrap">
+                                        <figure class="feature-image mb-3">
+                                            <img src="{{ asset('assets/images/cusco/inca-trail.avif') }}" 
+                                             alt="{{ __('cusco.camino-inca') }}">
+                                        </figure>
+                                        
+                                        <div class="package-content-wrap ">
+                                            <div class="package-content px-3 pb-3">
+                                                <h4 class="mb-2" >{{ __('cusco.camino-inca') }}</h4>
+                                                <p style="font-size: 14px; line-height: 1.5; text-align: justify;">
+                                                    {{ __('cusco.camino-inca-description') }}
+                                                </p>
+                                                <div class="btn-wrap justify-content-center "></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-4 col-md-6">
+                                    <div class="package-wrap">
+                                        <figure class="feature-image mb-3">
+                                            <img src="{{ asset('assets/images/cusco/south-valley.avif') }}" 
+                                             alt="{{ __('cusco.tour-valle-sur') }}">
+                                        </figure>
+                                        
+                                        <div class="package-content-wrap ">
+                                            <div class="package-content px-3 pb-3">
+                                                <h4 class="mb-2" >{{ __('cusco.tour-valle-sur') }}</h4>
+                                                <p style="font-size: 14px; line-height: 1.5; text-align: justify;">
+                                                    {{ __('cusco.tour-valle-sur-description') }}
+                                                </p>
+                                                <div class="btn-wrap justify-content-center "></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-4 col-md-6">
+                                    <div class="package-wrap">
+                                        <figure class="feature-image mb-3">
+                                            <img src="{{ asset('assets/images/cusco/choquequirao.avif') }}" 
+                                             alt="{{ __('cusco.choquequirao') }}">
+                                        </figure>
+                                        
+                                        <div class="package-content-wrap ">
+                                            <div class="package-content px-3 pb-3">
+                                                <h4 class="mb-2" >{{ __('cusco.choquequirao') }}</h4>
+                                                <p style="font-size: 14px; line-height: 1.5; text-align: justify;">
+                                                    {{ __('cusco.choquequirao-description') }}
+                                                </p>
+                                                <div class="btn-wrap justify-content-center "></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                            </div>
                         </div>
                         <div class="col-lg-4 secondary">
                             <div class="sidebar">
@@ -45,6 +218,10 @@
                            </div>
                         </div>  
                     </div>
+
+                    
+                    
+                            
                 </div>
             </div>
         </div>

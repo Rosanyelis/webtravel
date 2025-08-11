@@ -25,7 +25,7 @@
                         <div class="col-lg-8 primary right-sidebar">
                             <!-- single blog post html start -->
                             <figure class="feature-image">
-                                <img src="{{ asset('assets/images/tailor-made-travel2.webp') }}" alt="">
+                                <img src="{{ asset('assets/images/by-group/tailor-made-travel.avif') }}" alt="{{ __('site.experience.groups.tailor_made') }}">
                             </figure>
                             <article class="single-content-wrap">
                                 <h3 class="text-center">{{ __('site.experience.tailor_made.title') }}</h3>

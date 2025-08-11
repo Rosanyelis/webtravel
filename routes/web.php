@@ -40,6 +40,7 @@ Route::group(['prefix' => '{locale}', 'where' => ['locale' => 'en|es']], functio
     Route::get('/destinations/bolivia', [PagesController::class, 'bolivia'])->name('pages.bolivia');
     Route::get('/destinations/brasil', [PagesController::class, 'brasil'])->name('pages.brasil');
     Route::get('/blog', [PagesController::class, 'blog'])->name('pages.blog');
+    Route::post('/contact/send', [PagesController::class, 'send'])->name('contact.send');
 });
 
 // Ruta para cambiar idioma

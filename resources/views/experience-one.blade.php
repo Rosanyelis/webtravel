@@ -25,7 +25,7 @@
                         <div class="col-lg-8 primary right-sidebar">
                             <!-- single blog post html start -->
                             <figure class="feature-image">
-                                <img src="{{ asset('assets/images/wellnes-trip.png') }}" alt="">
+                                <img src="{{ asset('assets/images/by-theme/wellnes-trip.avif') }}" alt="{{ __('site.wellness.page_title') }}">
                             </figure>
                             <article class="single-content-wrap">
                                 <h3 class="text-center">{{ __('site.wellness.page_title') }}</h3>

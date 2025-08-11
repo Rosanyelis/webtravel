@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Mail;
 
 class PagesController extends Controller
 {
@@ -150,5 +151,23 @@ class PagesController extends Controller
         return view('blog');
     }
     
-    
+    public function send(Request $request)
+    {
+        $validated = $request->validate([
+            'name'    => 'required|string|max:255',
+            'email'   => 'required|email',
+            'message' => 'required|string',
+        ]);
+
+        Mail::send([], [], function ($message) use ($validated) {
+            $message->to('info@perupeoplevacations.com')
+                ->subject('Nuevo mensaje de contacto')
+                ->text(
+                    "Nombre: {$validated['name']}\nEmail: {$validated['email']}\nMensaje:\n{$validated['message']}"
+                )
+                ->replyTo($validated['email']);
+        });
+
+        return back()->with('success', '¡Mensaje enviado correctamente!');
+    }
 }

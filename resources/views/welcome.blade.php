@@ -12,7 +12,7 @@
                 <div class="home-slider">
                     <div class="home-banner-items">
                         <div class="banner-inner-wrap"
-                            style="background-image: url('assets/images/slider-banner-1.jpg');"></div>
+                            style="background-image: url('assets/images/slider-banner-1.avif');"></div>
                         <div class="banner-content-wrap">
                             <div class="container">
                                 <div class="banner-content text-center">
@@ -25,21 +25,6 @@
                         <div class="overlay"></div>
                         <div class="inner-shape"></div>
                     </div>
-                   {{--   <div class="home-banner-items">
-                        <div class="banner-inner-wrap"
-                            style="background-image: url('assets/images/slider-banner-2.jpg');"></div>
-                        <div class="banner-content-wrap">
-                            <div class="container">
-                                <div class="banner-content text-center">
-                                    <h2 class="banner-title">{{ __('site.home.slider2.title') }}</h2>
-                                    <p>{{ __('site.home.slider2.description') }}</p>
-                                    <a href="#" class="button-primary">{{ __('site.home.slider2.button') }}</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="overlay"></div>
-                        <div class="inner-shape"></div>
-                    </div> --}}
                 </div>
             </section>
             <!-- slider html start -->
@@ -67,7 +52,7 @@
                                     <div class="col-sm-6">
                                         <div class="desti-item overlay-desti-item">
                                             <figure class="desti-image">
-                                                <img src="{{ asset('assets/images/img1.png') }}" 
+                                                <img src="{{ asset('assets/images/img1.avif') }}" 
                                                 alt="{{ __('site.home.destinations.rainbow_mountain') }}">
                                             </figure>
                                             <div class="meta-cat bg-meta-cat">
@@ -81,7 +66,7 @@
                                     <div class="col-sm-6">
                                         <div class="desti-item overlay-desti-item">
                                             <figure class="desti-image">
-                                                <img src="{{ asset('assets/images/img2.png') }}" 
+                                                <img src="{{ asset('assets/images/img2.avif') }}" 
                                                 alt="{{ __('site.home.destinations.sacred_valley') }}">
                                             </figure>
                                             <div class="meta-cat bg-meta-cat">
@@ -101,7 +86,7 @@
                                     <div class="col-md-6 col-xl-12">
                                         <div class="desti-item overlay-desti-item">
                                             <figure class="desti-image">
-                                                <img src="{{ asset('assets/images/img3.png') }}" 
+                                                <img src="{{ asset('assets/images/img3.avif') }}" 
                                                 alt="{{ __('site.home.destinations.maras') }}">
                                             </figure>
                                             <div class="meta-cat bg-meta-cat">
@@ -117,7 +102,7 @@
                                     <div class="col-md-6 col-xl-12">
                                         <div class="desti-item overlay-desti-item">
                                             <figure class="desti-image">
-                                                <img src="{{ asset('assets/images/img4.png') }}" 
+                                                <img src="{{ asset('assets/images/img4.avif') }}" 
                                                 alt="{{ __('site.home.destinations.city_tour') }}">
                                             </figure>
                                             <div class="meta-cat bg-meta-cat">
@@ -145,7 +130,7 @@
                     <div class="row no-gutters align-items-center">
                         <div class="col-lg-5">
                             <div class="callback-img" 
-                            style="background-image: url({{ asset('assets/images/img8.png') }});"></div>
+                            style="background-image: url({{ asset('assets/images/img8.avif') }});"></div>
                         </div>
                         <div class="col-lg-7">
                             <div class="callback-inner">
@@ -232,7 +217,7 @@
                                 <p>{{ __('site.home.gallery.description') }}</p>
                             </div>
                             <figure class="gallery-img">
-                                <img src="{{ asset('assets/images/highligths/IMG_9671.jpg') }}" 
+                                <img src="{{ asset('assets/images/highligths/IMG_9671.avif') }}" 
                                 alt="{{ __('site.home.gallery.title') }}">
                             </figure>
                         </div>
@@ -240,13 +225,13 @@
                             <div class="row">
                                 <div class="col-sm-6">
                                     <figure class="gallery-img">
-                                        <img src="{{ asset('assets/images/highligths/IMG_9757.jpg') }}" 
+                                        <img src="{{ asset('assets/images/highligths/IMG_9757.avif') }}" 
                                         alt="{{ __('site.home.gallery.title') }}">
                                     </figure>
                                 </div>
                                 <div class="col-sm-6">
                                     <figure class="gallery-img">
-                                        <img src="{{ asset('assets/images/highligths/IMG_9733.jpg') }}" 
+                                        <img src="{{ asset('assets/images/highligths/IMG_9767.avif') }}" 
                                         alt="{{ __('site.home.gallery.title') }}">
                                     </figure>
                                 </div>
@@ -254,7 +239,7 @@
                             <div class="row">
                                 <div class="col-12">
                                     <figure class="gallery-img">
-                                        <img src="{{ asset('assets/images/highligths/home1.png') }}" 
+                                        <img src="{{ asset('assets/images/highligths/home1.avif') }}" 
                                         alt="{{ __('site.home.gallery.title') }}">
                                     </figure>
                                 </div>
@@ -271,7 +256,7 @@
                     <div class="row">
                         <div class="col-lg-4">
                             <div class="contact-img" 
-                            style="background-image: url({{ asset('assets/images/img24.png') }});">
+                            style="background-image: url({{ asset('assets/images/img24.avif') }});">
                             </div>
                         </div>
                         <div class="col-lg-8">

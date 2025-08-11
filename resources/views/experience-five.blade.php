@@ -25,7 +25,7 @@
                         <div class="col-lg-8 primary right-sidebar">
                             <!-- single blog post html start -->
                             <figure class="feature-image">
-                                <img src="{{ asset('assets/images/walking-tours2.webp') }}" alt="">
+                                <img src="{{ asset('assets/images/by-theme/walking-tours.avif') }}" alt="{{ __('site.experience.walking_tours.title') }}">
                             </figure>
                             <article class="single-content-wrap">
                                 <h3 class="text-center">{{ __('site.experience.walking_tours.title') }}</h3>

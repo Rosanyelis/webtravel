@@ -24,45 +24,45 @@
                     <div class="gallery-inner-wrap gallery-container grid" style="position: relative; height: 957.422px;">
                     <div class="single-gallery grid-item" style="position: absolute; left: 0px; top: 0px;">
                         <figure class="gallery-img">
-                            <img src="{{ asset('assets/images/highligths/IMG_9816.jpg') }}" alt="">
+                            <img src="{{ asset('assets/images/highligths/IMG_9816.avif') }}" alt="">
                         </figure>
                     </div>
                     <div class="single-gallery grid-item" style="position: absolute; left: 383.953px; top: 0px;">
                         <figure class="gallery-img">
-                            <img src="{{ asset('assets/images/highligths/IMG_9635.jpg') }}" alt="">
+                            <img src="{{ asset('assets/images/highligths/IMG_9635.avif') }}" alt="">
                         </figure>
                     </div>
                     <div class="single-gallery grid-item" style="position: absolute; left: 767.906px; top: 0px;">
                         <figure class="gallery-img">
-                            <img src="{{ asset('assets/images/highligths/IMG_9828.jpg') }}" alt="">
+                            <img src="{{ asset('assets/images/highligths/IMG_9828.avif') }}" alt="">
                         </figure>
                     </div>
                     <div class="single-gallery grid-item" style="position: absolute; left: 383.953px; top: 307.188px;">
                         <figure class="gallery-img">
-                            <img src="{{ asset('assets/images/highligths/IMG_9658.jpg') }}" alt="">
+                            <img src="{{ asset('assets/images/highligths/IMG_9658.avif') }}" alt="">
                         </figure>
                     </div>
                     <div class="single-gallery grid-item" style="position: absolute; left: 0px; top: 476.938px;">
                         <figure class="gallery-img">
-                            <img src="{{ asset('assets/images/highligths/IMG_9884.jpg') }}" alt="">
+                            <img src="{{ asset('assets/images/highligths/IMG_9884.avif') }}" alt="">
                             
                         </figure>
                     </div>
                     <div class="single-gallery grid-item" style="position: absolute; left: 767.906px; top: 476.938px;">
                         <figure class="gallery-img">
-                            <img src="{{ asset('assets/images/highligths/IMG_9671.jpg') }}" alt="">
+                            <img src="{{ asset('assets/images/highligths/IMG_9671.avif') }}" alt="">
                             
                         </figure>
                     </div>
                     <div class="single-gallery grid-item" style="position: absolute; left: 383.953px; top: 588.954px;">
                         <figure class="gallery-img">
-                            <img src="{{ asset('assets/images/highligths/IMG_9733.jpg') }}" alt="">
+                            <img src="{{ asset('assets/images/highligths/IMG_9733.avif') }}" alt="">
                             
                         </figure>
                     </div>
                     <div class="single-gallery grid-item" style="position: absolute; left: 767.906px; top: 687.688px;">
                         <figure class="gallery-img">
-                            <img src="{{ asset('assets/images/highligths/IMG_9757.jpg') }}" alt="">
+                            <img src="{{ asset('assets/images/highligths/IMG_9757.avif') }}" alt="">
                             
                         </figure>
                     </div>
