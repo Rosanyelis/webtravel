@@ -25,7 +25,7 @@
                         <div class="col-lg-8 primary right-sidebar">
                             <!-- single blog post html start -->
                             <figure class="feature-image">
-                                <img src="{{ asset('assets/images/by-group/small-group-adventures.avif') }}" alt="{{ __('site.experience.groups.small_group') }}">
+                                <img src="{{ asset('assets/images/by-group/small-group-adventures.png') }}" alt="{{ __('site.experience.groups.small_group') }}">
                             </figure>
                             <article class="single-content-wrap">
                                 <h3 class="text-center">{{ __('site.experience.small_group.title') }}</h3>

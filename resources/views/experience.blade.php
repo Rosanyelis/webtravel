@@ -141,7 +141,7 @@
                             <div class="package-wrap">
                                 <figure class="feature-image">
                                     <a href="{{ route('pages.experiencefive', app()->getLocale()) }}">
-                                        <img src="{{ asset('assets/images/by-theme/walking-tours.avif') }}" alt="{{ __('site.experience.themes.walking_tours') }}">
+                                        <img src="{{ asset('assets/images/by-theme/walking-tours.png') }}" alt="{{ __('site.experience.themes.walking_tours') }}">
                                     </a>
                                 </figure>
                                 
@@ -165,7 +165,7 @@
                             <div class="package-wrap">
                                 <figure class="feature-image">
                                     <a href="{{ route('pages.experiencesix', app()->getLocale()) }}">
-                                        <img src="{{ asset('assets/images/by-theme/romantic-vacations-honeymoom.avif') }}" alt="{{ __('site.experience.themes.romantic_vacations') }}">
+                                        <img src="{{ asset('assets/images/by-theme/romantic-vacations-honeymoom.png') }}" alt="{{ __('site.experience.themes.romantic_vacations') }}">
                                     </a>
                                 </figure>
                                 <div class="package-content-wrap">
@@ -215,7 +215,7 @@
                             <div class="package-wrap">
                                 <figure class="feature-image">
                                     <a href="{{ route('pages.experienceseven', app()->getLocale()) }}">
-                                        <img src="{{ asset('assets/images/by-group/travel-together1.avif') }}" alt="{{ __('site.experience.groups.travel_together') }}">
+                                        <img src="{{ asset('assets/images/by-group/travel-together1.png') }}" alt="{{ __('site.experience.groups.travel_together') }}">
                                     </a>
                                 </figure>
                                 
@@ -239,7 +239,7 @@
                             <div class="package-wrap">
                                 <figure class="feature-image">
                                     <a href="{{ route('pages.experienceeight', app()->getLocale()) }}">
-                                        <img src="{{ asset('assets/images/by-group/empowering-solo-journeys.avif') }}" alt="{{ __('site.experience.groups.solo_journeys') }}">
+                                        <img src="{{ asset('assets/images/by-group/empowering-solo-journeys.png') }}" alt="{{ __('site.experience.groups.solo_journeys') }}">
                                     </a>
                                 </figure>
                                 
@@ -287,7 +287,7 @@
                             <div class="package-wrap">
                                 <figure class="feature-image">
                                     <a href="{{ route('pages.experienceten', app()->getLocale()) }}">
-                                        <img src="{{ asset('assets/images/by-group/small-group-adventures.avif') }}" alt="{{ __('site.experience.groups.small_group') }}">
+                                        <img src="{{ asset('assets/images/by-group/small-group-adventures.png') }}" alt="{{ __('site.experience.groups.small_group') }}">
                                     </a>
                                 </figure>
                                 
@@ -311,7 +311,7 @@
                             <div class="package-wrap">
                                 <figure class="feature-image">
                                     <a href="{{ route('pages.experienceeleven', app()->getLocale()) }}">
-                                        <img src="{{ asset('assets/images/by-group/cherished-moments.avif') }}" alt="{{ __('site.experience.groups.couples') }}">
+                                        <img src="{{ asset('assets/images/by-group/cherished-moments.png') }}" alt="{{ __('site.experience.groups.couples') }}">
                                     </a>
                                 </figure>
                                 

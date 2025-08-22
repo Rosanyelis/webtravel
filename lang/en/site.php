@@ -76,8 +76,8 @@ return [
     
     // Footer
     'footer.description' => 'PPV is a tour operator that fosters genuine connections with people and places. We offer exclusive, transformative experiences that make every traveler feel like a part of Peru, not just a visitor.',
-    'footer.business_name' => 'PEOPLE VACATIONS',
-    'footer.company_name' => 'PERU PEOPLE VACATIONS E.I.R.L',
+    'footer.business_name' => 'Commercial Name',
+    'footer.company_name' => 'Company Name',
     'footer.ruc' => '20611301431',
     'footer.address' => 'Calle Mariano Castro 374, San Sebastián',
     'footer.city' => 'Cusco - Perú',

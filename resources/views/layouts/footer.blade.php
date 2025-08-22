@@ -15,8 +15,8 @@
                                     {{ __('site.footer.description') }}
                                 </div>
                                 <div class="textwidget widget-text mt-2" style="font-size: 13px; line-height: 1.7;">
-                                    <strong>{{ __('site.footer.business_name') }}:</strong> {{ __('site.footer.business_name') }} <br>
-                                    <strong>{{ __('site.footer.company_name') }}:</strong> {{ __('site.footer.company_name') }} <br>
+                                    <strong>{{ __('site.footer.business_name') }}:</strong> PEOPLE VACATIONS <br>
+                                    <strong>{{ __('site.footer.company_name') }}:</strong> PERU PEOPLE VACATIONS E.I.R.L <br>
                                     <strong>RUC:</strong> {{ __('site.footer.ruc') }} <br>
                                     <strong>{{ __('site.contact.location_title') }}:</strong> {{ __('site.footer.address') }} <br>
                                     <strong>{{ __('site.footer.city') }}:</strong> {{ __('site.footer.city') }}
@@ -58,11 +58,6 @@
                                         <li>
                                             <a href="{{ route('pages.experience', ['locale' => App::getLocale()]) }}">
                                                 {{ __('site.nav.experiences') }}
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="{{ route('pages.highlights', ['locale' => App::getLocale()]) }}">
-                                                {{ __('site.nav.highlights') }}
                                             </a>
                                         </li>
                                         <li>

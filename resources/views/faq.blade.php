@@ -8,7 +8,7 @@
    <main id="content" class="site-main">
         <!-- Inner Banner html start-->
       <section class="inner-banner-wrap">
-         <div class="inner-baner-container" style="background-image: url('{{ asset('assets/images/faqs.png') }}');">
+         <div class="inner-baner-container" style="background-image: url('{{ asset('assets/images/fawq.png') }}');">
             <div class="container">
                <div class="inner-banner-content">
                   <h1 class="inner-title">{{ __('site.faq.title') }}</h1>
